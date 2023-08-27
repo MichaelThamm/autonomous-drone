@@ -1,6 +1,6 @@
 # Resources
-[Oak-D Lite Youtube Tutorial](https://www.youtube.com/watch?v=7BkHcJu57Cg)
-[cad-models](https://github.com/luxonis/depthai-hardware/tree/master/DM9095_OAK-D-LITE_DepthAI_USB3C)
+* [Oak-D Lite Youtube Tutorial](https://www.youtube.com/watch?v=7BkHcJu57Cg)
+* [cad-models](https://github.com/luxonis/depthai-hardware/tree/master/DM9095_OAK-D-LITE_DepthAI_USB3C)
 
 ## Battery Powered Oak-D Lite
 * To use a [battery-powered Oak-D Lite](https://discuss.luxonis.com/d/1767-powering-oak-d-lite), Luxonis recommends the [Y-adapter](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM6010/#y-adapter)
