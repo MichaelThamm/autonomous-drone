@@ -12,5 +12,3 @@
 ### Connect a spliced USB-C cable
 * Buy a USB-C to USB-C cable and cut the one end.
 * Leave all ends disconnected except for the VBUS (power) and GND pins
-* The default VBUS voltage is 5 V but the standard ([ref](https://www.allaboutcircuits.com/technical-articles/introduction-to-usb-type-c-which-pins-power-delivery-data-transfer/#:~:text=The%20VBUS%20and%20GND%20pins,voltage%20up%20to%2020%20V.)) allows the devices to negotiate and choose a VBUS voltage other than the default value.
-* The Power Delivery allows VBUS to have a voltage up to 20 V.
