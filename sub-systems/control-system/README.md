@@ -5,3 +5,7 @@ After reading [best-fc-esc-stack](https://oscarliang.com/top-5-best-fc-mini-quad
 * [Speedybee F405 V3 FC + 50A BLHeli_S 4in1 ESC](https://www.amazon.com/SpeedyBee-Flight-Controller-Stack-Configuration/dp/B0BFQ3X892/ref=sr_1_4?camp=1789&creative=9325&keywords=speedybee+f405+v3&linkCode=ur2&linkId=bc576ce7bb8496867e3d21903b7925c5&qid=1693113981&sr=8-4)
 * Reason: Cheapest and 4K looptime is sufficient
 * Spec: 9V 2A + 5V 2A + 3.3V 500mA
+
+## Python Program
+* [python-oak-d-lite](https://core-electronics.com.au/guides/oak-d-lite-raspberry-pi/)
+* 
