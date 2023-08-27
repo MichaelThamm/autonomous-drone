@@ -8,6 +8,7 @@
 ## TODO
 * Figure out the Oak-D Lite battery power requirements
 * Gather remaining power requirements for sub-systems
+* Create a wiring diagram
 * Build a Python program skeleton
 
 ## Approximate Cost (CAD)
