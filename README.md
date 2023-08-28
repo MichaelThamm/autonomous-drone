@@ -6,6 +6,8 @@
 * Create spatial-awareness and autonomous flight.
 
 ## TODO
+* I will be going from higher than 5V to the 5V for the raspberry pi, can the powerboost handle this?
+* Start looking at drone battery rating and pricing and converter systems
 * Figure out the Oak-D Lite battery power requirements
 * Gather remaining power requirements for sub-systems
 * Create a wiring diagram
