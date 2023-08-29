@@ -3,3 +3,9 @@
 * If you’re powering the Raspberry Pi with a rechargeable battery, you need to have a battery charge controller.
 * Charge controllers regulate the incoming current and voltage to your batteries.
 * They are used to prevent overcharging, allow you to charge your lithium batteries safely, prolonging your battery’s lifespan.
+
+# Drone battery
+* [6s-lipo-3000mah](https://rc-innovations.es/shop/lipo-6s-22-2v-3000mah-60c-b-60c-3000-6s1p-gens-ace?category=356&attrib=&attrib=22-188&attrib=#attr=2817,1936,2891)
+* [shop-for-battery](https://rc-innovations.es/shop/category/LiPo-batteries-6s-22-2V-high-quality?category=356&search=&attrib=&attrib=)
+* [6000mAh-45C](https://rc-innovations.es/gens-ace-6s-22-2v-6000mah-45c-ec5-connector-lipo-battery?category=356&attrib=&attrib=22-112&attrib=) 
+* [9000mAh-25C](https://rc-innovations.es/lipo-gens-ace-tattu-6s-9000mah-25c-22-2v?category=356&attrib=&attrib=22-85&attrib=)

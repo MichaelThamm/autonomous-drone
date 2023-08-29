@@ -7,14 +7,14 @@
 
 ## TODO
 * I will be going from higher than 5V to the 5V for the raspberry pi, can the powerboost handle this?
-* Start looking at drone battery rating and pricing and converter systems
+* If a battery has a 25C rating. Is the discharge rate constant or depending on the load?
 * Figure out the Oak-D Lite battery power requirements
 * Gather remaining power requirements for sub-systems
 * Create a wiring diagram
 * Build a Python program skeleton
 
 ## Approximate Cost (CAD)
-* $400
+* $500
 
 ## Purchase Links
 * [raspberry-pi-4b](https://www.amazon.de/-/en/Raspberry-ARM-Cortex-A72-WLAN-ac-Bluetooth-Micro-HDMI-Single/dp/B07TC2BK1X/ref=sr_1_4?keywords=raspberry%2Bpi&qid=1691395648&sr=8-4&th=1)
