@@ -4,22 +4,7 @@ n=55,500/60=925rps
 p=1.2 kg/m³
 P=500W
 D=30mmx3=90mm/1000=0.09m
-
-Thrust=0.5*1.2*855,625*0.00006561*500=16,841N
-
-The equation to calculate the thrust of a spinning propeller blade is:
-
-Thrust = k * ρ * n^2 * D^4 * P
-
-Where:
-
-k is a constant depending on various factors (typically around 1/2 to 2/3 for well-designed propellers)
-ρ is the air density
-n is the rotational speed of the propeller (in revolutions per second)
-D is the diameter of the propeller
-P is the power delivered to the propeller
-Remember, this is a simplified equation and there are other factors that can influence thrust, like the pitch angle of the blades, the shape of the blades, and more. But with the motor specifications, propeller dimensions, and the number of blades, you can use this equation as a starting point for your calculations. ChatGPT
-
+* [thrust-calculator](https://www.mejzlik.eu/technical-data/propeller_calculator)
 
 # Summary
 The propulsion system for the quadcopter requires:
