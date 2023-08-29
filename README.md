@@ -9,6 +9,7 @@
 * I will be going from 22.2V to the 5V for the raspberry pi, can the powerboost handle this?
 * How much will the battery's voltage drop?
 * Is the battery rechargeable?
+* Does the battery voltage get dropped for the FC/ESC stack? This would effect the run time.
 * If a battery has a 25C rating. Is the discharge rate constant or depending on the load?
 * Figure out the Oak-D Lite battery power requirements
 * Gather remaining power requirements for sub-systems
