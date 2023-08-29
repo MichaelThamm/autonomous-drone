@@ -6,7 +6,9 @@
 * Create spatial-awareness and autonomous flight.
 
 ## TODO
-* I will be going from higher than 5V to the 5V for the raspberry pi, can the powerboost handle this?
+* I will be going from 22.2V to the 5V for the raspberry pi, can the powerboost handle this?
+* How much will the battery's voltage drop?
+* Is the battery rechargeable?
 * If a battery has a 25C rating. Is the discharge rate constant or depending on the load?
 * Figure out the Oak-D Lite battery power requirements
 * Gather remaining power requirements for sub-systems
