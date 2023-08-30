@@ -6,7 +6,7 @@
 * Create spatial-awareness and autonomous flight.
 
 ## TODO
-* I will be going from 22.2V to the 5V for the raspberry pi, can the powerboost handle this?
+* I will be going from 22.2V to the 5V for the raspberry pi, can the Speedybee stack outputs to powerboost handle this?
 * How much will the battery's voltage drop?
 * Is the battery rechargeable?
 * Does the battery voltage get dropped for the FC/ESC stack? This would effect the run time.
