@@ -7,14 +7,12 @@
 
 ## TODO
 * I will be going from 22.2V to the 5V for the raspberry pi, can the Speedybee stack outputs to powerboost handle this?
-* How much will the battery's voltage drop?
-* Is the battery rechargeable?
-* Does the battery voltage get dropped for the FC/ESC stack? This would effect the run time.
-* If a battery has a 25C rating. Is the discharge rate constant or depending on the load?
-* Figure out the Oak-D Lite battery power requirements
-* Gather remaining power requirements for sub-systems
-* Create a wiring diagram
-* Build a Python program skeleton
+* How much will the battery's voltage drop? Is the battery rechargeable?
+* Gather remaining power requirements for sub-systems.
+* Source a second battery with around 3s designated for the Pi and the Oak-D Lite.
+* Create a wiring diagram.
+* Build a Python program skeleton.
+* How can I tie the Pi into the radio controller to replace the controller with autonomy?
 
 ## Approximate Cost (CAD)
 * $500
