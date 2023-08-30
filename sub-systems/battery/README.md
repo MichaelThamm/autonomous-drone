@@ -19,7 +19,7 @@
 * [0.58Ah-20C](https://www.amazon.com/ECHOBBY-580mAh-Battery-PH2-0-3P-Quadcopter/dp/B0BN92JD73/ref=sr_1_40?keywords=2s+lipo&qid=1693419224&sr=8-40)
 * [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
 * [regulator-4amp](https://de.aliexpress.com/i/32946554914.html?gatewayAdapt=glo2deu)
-*
+* 
 [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
 
 ### USB regulator
