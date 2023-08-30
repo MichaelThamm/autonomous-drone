@@ -17,3 +17,5 @@
 * [0.5Ah-20C](https://www.amazon.com/ECHOBBY-Battery-Airplane-Helicopter-Quadcopter/dp/B0C4YQ4LGN/ref=sr_1_44?keywords=2s+lipo&qid=1693419224&sr=8-44)
 * [1Ah-20C](https://www.amazon.com/1000mAh-Battery-Airplane-Helicopter-Racing/dp/B09WLKVLVJ/ref=sr_1_41?keywords=2s%2Blipo&qid=1693419224&sr=8-41&th=1)
 * [0.58Ah-20C](https://www.amazon.com/ECHOBBY-580mAh-Battery-PH2-0-3P-Quadcopter/dp/B0BN92JD73/ref=sr_1_40?keywords=2s+lipo&qid=1693419224&sr=8-40)
+* [regulator](https://de.aliexpress.com/item/4000084079149.html) which requires:
+* [usb-usbc-splitter](https://www.amazon.de/USB-Ladekabel-kompatibel-Ger%C3%A4ten-Anschluss-Aluminum/dp/B08TC6FL5P/ref=asc_df_B08TC6FL5P/?tag=googshopde-21&linkCode=df0&hvadid=579697733960&hvpos=&hvnetw=g&hvrand=2443475206344119059&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=1000900&hvtargid=pla-1627129928385&psc=1&th=1&psc=1)
