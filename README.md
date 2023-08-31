@@ -6,6 +6,7 @@
 * Create spatial-awareness and autonomous flight.
 
 ## TODO
+* Figure out if the stack can set the voltage to the motors
 * I will be going from 22.2V to the 5V for the raspberry pi, can the Speedybee stack outputs to powerboost handle this?
 * How much will the battery's voltage drop? Is the battery rechargeable?
 * Gather remaining power requirements for sub-systems.
