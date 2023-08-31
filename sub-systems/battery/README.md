@@ -20,7 +20,9 @@
 
 # Regulators & cables
 * [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
-* [best-one](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD86120EFJ-E2/4037737)
+* [cable-style-regulator](https://www.3dxr.co.uk/electronics-c78/power-management-c91/voltage-regulators-becs-c101/hobbywing-5a-ubec-5v-6v-7-4v-2-8s-v2-air-p5267)
+* [ali-express-cable-style-regulator](https://de.aliexpress.com/item/1005004462440542.html?gatewayAdapt=glo2deu)
+* [IC-chip-regulator](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD86120EFJ-E2/4037737)
 * [regulator-4amp](https://de.aliexpress.com/i/32946554914.html?gatewayAdapt=glo2deu)
 * [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
 

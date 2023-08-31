@@ -10,9 +10,5 @@
 * "Always connect the 'power' first before connected the host to the 'data'."
 
 ### Connect a spliced USB-C cable
-* Buy a USB-C to USB-C cable and cut the one end.
+* [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
 * Leave all ends disconnected except for the VBUS (power) and GND pins
-
-### Where does the power come from?
-* The Speedybee ESC has 9 groups of 5V output with max 2A load accross all.
-* Pi 4 B draws 1.28A and the Oak-d lite 2.1A max meaning the ESC cannot sustain this.
