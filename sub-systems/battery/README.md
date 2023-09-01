@@ -12,7 +12,7 @@
 * 6s range: 19.2-25.2v
 ## Drone battery
 ### Requirements
-* 200 A discharge capability
+* 200 A discharge capability + The 5-10A for the Oak-D Lite and Pi
 * 4s - 6s voltage supply
 * 4Ah - 10Ah capacity
 * < 500 grams
