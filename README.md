@@ -6,11 +6,8 @@
 * Create spatial-awareness and autonomous flight.
 
 ## TODO
-* Figure out if the stack can set the voltage to the motors
-* I will be going from 22.2V to the 5V for the raspberry pi, can the Speedybee stack outputs to powerboost handle this?
-* How much will the battery's voltage drop? Is the battery rechargeable?
+* Is the battery rechargeable?
 * Gather remaining power requirements for sub-systems.
-* Source a second battery with around 3s designated for the Pi and the Oak-D Lite.
 * Create a wiring diagram.
 * Build a Python program skeleton.
 * How can I tie the Pi into the radio controller to replace the controller with autonomy?

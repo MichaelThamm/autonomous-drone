@@ -1,8 +1,16 @@
-# Raspberry Pi
-* The Raspberry Pi needs to be powered with 5V DC, so we need to have a DC/DC converter to convert the battery voltage to 5V.
-* If you’re powering the Raspberry Pi with a rechargeable battery, you need to have a battery charge controller.
-* Charge controllers regulate the incoming current and voltage to your batteries.
-* They are used to prevent overcharging, allow you to charge your lithium batteries safely, prolonging your battery’s lifespan.
+# External needs
+* Need a DC/DC converter to convert the battery voltage to 5V.
+## Raspberry Pi
+* The Raspberry Pi needs to be powered with 5V DC up to 1.28A
+## Oak-D Lite
+* To use a [battery-powered Oak-D Lite](https://discuss.luxonis.com/d/1767-powering-oak-d-lite), Luxonis recommends the [Y-adapter](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM6010/#y-adapter)
+* The power port wants 5V DC power up to 2.1A
+* USB-C to the power port and the [data-to-Pi-see-section-6](https://github.com/luxonis/depthai-hardware/blob/master/DM9095_OAK-D-LITE_DepthAI_USB3C/Datasheet/OAK-D-Lite_Datasheet.pdf)
+* If you don't have USB-C, use battery rated for at least 1A / 5W (preferably 2A / 10W)
+* Always connect the 'power' first before connected the host to the 'data'
+### Connect a spliced USB-C cable
+* Use a usb-c cable splitter for data and power. Then connect battery to splitter for power and data for outgoing to transmitter.
+* Leave all ends disconnected except for the VBUS (power) and GND pins
 
 # Batteries
 * The discharge rate (C) is important to know the max current before overheating and voltage drop.
@@ -29,13 +37,3 @@
 * IMPORTANT: Buy the right connector for the battery: XT60=60 amp & XT90=90 amp & EC5=120 amp
 * [batter-power-1m-2f-y-splitter](https://de.aliexpress.com/i/32845175528.html?gatewayAdapt=glo2deu)
 * Require conversion of plug to flying leads: [ali-express-cable-style-regulator](https://de.aliexpress.com/item/1005004462440542.html?gatewayAdapt=glo2deu)
-
-## Vision & Pi Battery
-* [0.5Ah-20C](https://www.amazon.com/ECHOBBY-Battery-Airplane-Helicopter-Quadcopter/dp/B0C4YQ4LGN/ref=sr_1_44?keywords=2s+lipo&qid=1693419224&sr=8-44)
-* [1Ah-20C](https://www.amazon.com/1000mAh-Battery-Airplane-Helicopter-Racing/dp/B09WLKVLVJ/ref=sr_1_41?keywords=2s%2Blipo&qid=1693419224&sr=8-41&th=1)
-* [0.58Ah-20C](https://www.amazon.com/ECHOBBY-580mAh-Battery-PH2-0-3P-Quadcopter/dp/B0BN92JD73/ref=sr_1_40?keywords=2s+lipo&qid=1693419224&sr=8-40)
-### Regulators & Cables
-* [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
-* [ali-express-cable-style-regulator](https://de.aliexpress.com/item/1005004462440542.html?gatewayAdapt=glo2deu)
-* [IC-chip-regulator](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD86120EFJ-E2/4037737)
-* [regulator-4amp](https://de.aliexpress.com/i/32946554914.html?gatewayAdapt=glo2deu)

@@ -12,7 +12,7 @@
 # Autonomous Control
 ## Raspberry Pi 4 B
 * Since it is operating on a drone it must be a [battery-powered-pi](https://www.circuitbasics.com/how-to-power-your-raspberry-pi-with-a-lithium-battery/).
-* [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
+* Use a usb-c cable splitter for data and power. Then connect battery to splitter for power and data for outgoing to transmitter.
 
 ## Python Program
 * [python-oak-d-lite](https://core-electronics.com.au/guides/oak-d-lite-raspberry-pi/)

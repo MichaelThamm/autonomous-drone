@@ -6,3 +6,8 @@
 * Buzzer: A buzzer is used for various purposes, such as low battery warnings, arming/disarming notifications, and locating your drone if it crashes or gets lost. It's typically connected to the FC for control.
 * Servo: If your drone design requires a servo for functions like camera tilt, landing gear retraction, or other mechanical movements, it connects to the FC.
 * Phoenix 2 RunCam: This refers to the RunCam Phoenix 2, which is an FPV camera. It connects to the FC to transmit the video feed to your FPV goggles or video transmitter.
+* Note: The Phoenix 2 RunCam is not needed and will be replaced with the Oak-D lite
+
+## Remote Control
+* [remote-control-options](https://etramping.com/best-drone-transmitter/#:~:text=If%20money%20is%20not%20an,Transmitter%20is%20the%20Budget%20Option.)
+* [best-drone-controllers](https://www.droneblog.com/best-drone-controllers/)
