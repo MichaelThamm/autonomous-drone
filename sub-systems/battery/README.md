@@ -22,6 +22,7 @@
 * [6Ah-45C](https://rc-innovations.es/gens-ace-6s-22-2v-6000mah-45c-ec5-connector-lipo-battery?category=356&attrib=&attrib=22-112&attrib=) 
 * [8Ah-12C](https://hobbyking.com/de_de/turnigy-high-capacity-battery-8000mah-6s-12c-drone-lipo-pack-xt90.html?___store=de_de)
 * [9Ah-25C](https://rc-innovations.es/lipo-gens-ace-tattu-6s-9000mah-25c-22-2v?category=356&attrib=&attrib=22-85&attrib=)
+* [6s-6Ah-10C](https://de.aliexpress.com/item/1005005574098144.html)
 ### Regulators & Cables
 * [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
 * [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
