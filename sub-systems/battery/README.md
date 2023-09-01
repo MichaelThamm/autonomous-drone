@@ -5,8 +5,18 @@
 * They are used to prevent overcharging, allow you to charge your lithium batteries safely, prolonging your battery’s lifespan.
 
 # Batteries
-## Drone battery
 * The discharge rate (C) is important to know the max current before overheating and voltage drop.
+* lipo battery voltage ranges from 3.2-4.2v
+* 4s range: 12.8-16.8v
+* 5s range: 16-21v
+* 6s range: 19.2-25.2v
+## Drone battery
+### Requirements
+* 200 A discharge capability
+* 4s - 6s voltage supply
+* 4Ah - 10Ah capacity
+* < 500 grams
+### Sourcing
 * [6s-lipo-3000mah](https://rc-innovations.es/shop/lipo-6s-22-2v-3000mah-60c-b-60c-3000-6s1p-gens-ace?category=356&attrib=&attrib=22-188&attrib=#attr=2817,1936,2891)
 * [shop-for-battery](https://rc-innovations.es/shop/category/LiPo-batteries-6s-22-2V-high-quality?category=356&search=&attrib=&attrib=)
 * [6Ah-45C](https://rc-innovations.es/gens-ace-6s-22-2v-6000mah-45c-ec5-connector-lipo-battery?category=356&attrib=&attrib=22-112&attrib=) 

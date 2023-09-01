@@ -7,6 +7,7 @@
 
 # Standard Control
 * I need to buy the stack peripherals: controller, radio chip, ...
+* [first-time-setup](https://www.youtube.com/watch?v=F5Qfk_xIzVs)
 
 # Autonomous Control
 ## Raspberry Pi 4 B
@@ -15,4 +16,5 @@
 
 ## Python Program
 * [python-oak-d-lite](https://core-electronics.com.au/guides/oak-d-lite-raspberry-pi/)
+* [first-time-oak-d-setup](https://www.youtube.com/watch?v=e_uPEE_zlDo)
 * I need to hook into the radio signal with the raspberry-pi's python program
