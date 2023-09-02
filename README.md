@@ -15,8 +15,8 @@
 * Build a Python program skeleton.
 * How can I tie the Pi into the radio controller to replace the controller with autonomy?
 
-## Approximate Cost (CAD)
-* $500
+## Approximate Cost
+* €500
 
 ## Purchase Links
 * _Prices are tax included_
