@@ -1,7 +1,6 @@
 # FC and ESC Stack
 * A [flight-controller](https://oscarliang.com/flight-controller-explained/#Flight-Controller-What-it-is-and-How-it-Works) is a circuit board equipped with sensors that detect the drone’s movements and user commands. With this information, the FC signals the [ESC](https://oscarliang.com/esc/) to move the drone in the desired direction.
-* After reading [best-fc-esc-stack](https://oscarliang.com/top-5-best-fc-mini-quad/), the chosen FC and ESC stack was:
-* [Speedybee F405 V3 FC + 50A BLHeli_S 4in1 ESC](https://www.amazon.com/SpeedyBee-Flight-Controller-Stack-Configuration/dp/B0BFQ3X892/ref=sr_1_4?camp=1789&creative=9325&keywords=speedybee+f405+v3&linkCode=ur2&linkId=bc576ce7bb8496867e3d21903b7925c5&qid=1693113981&sr=8-4)
+* [SpeedyBee F7 V3 BL32 50A 30x30 Stack](https://www.speedybee.com/speedybee-f7-v3-bl32-50a-30x30-stack/)
 * The Racerstar brushless motors recommend a 45A ESC and the Speedybee F405 V3 FC + 50A BLHeli_S 4in1 ESC is 50A continuous per motor.
 * IMPORTANT: In order to prevent the stack from being burnt out by voltage spikes on powering up, it is strongly recommended to use the Low ESR capacitor in the package.
 
@@ -18,3 +17,37 @@
 * [python-oak-d-lite](https://core-electronics.com.au/guides/oak-d-lite-raspberry-pi/)
 * [first-time-oak-d-setup](https://www.youtube.com/watch?v=e_uPEE_zlDo)
 * I need to hook into the radio signal with the raspberry-pi's python program
+
+## ESC Pins
+* To control the motors via the ESC pins (S1 to S4) using a Raspberry Pi or any other microcontroller, you'll need to send PWM (Pulse Width Modulation) signals. PWM signals are a common way to control ESCs because they encode information about the desired motor speed within the width of the pulse.
+* The PWM signal consists of a repeating pulse, where the width (duration) of the pulse determines the motor speed. A wider pulse indicates a higher speed, while a narrower pulse indicates a lower speed.
+* The pulse repetition rate (frequency) is typically around 50 Hz, but this can vary. A pulse width of 1.0 ms might correspond to the minimum speed, while a width of 2.0 ms might correspond to the maximum speed. The exact range can vary between ESCs, so you should check the documentation for your specific ESCs.
+* To send PWM signals from a Raspberry Pi, you can use one of the GPIO pins. Here's a simplified example in Python using the RPi.GPIO library:
+
+import RPi.GPIO as GPIO
+import time
+
+*Set the GPIO pin for ESC control*
+esc_pin = 18  *Replace with the actual GPIO pin you're using*
+
+*Initialize GPIO*
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(esc_pin, GPIO.OUT)
+
+*Create a PWM object with a frequency of 50 Hz*
+pwm = GPIO.PWM(esc_pin, 50)
+
+*Start the PWM signal (0% duty cycle initially)*
+pwm.start(0)
+
+try:
+    while True:
+        *Set the desired motor speed by changing the duty cycle (0-100)*
+        speed = 50  *Replace with the desired speed (0-100)*
+        pwm.ChangeDutyCycle(speed)
+        time.sleep(1)  *Change speed every 1 second*
+
+except KeyboardInterrupt:
+    *Clean up and stop the PWM signal on program exit*
+    pwm.stop()
+    GPIO.cleanup()
