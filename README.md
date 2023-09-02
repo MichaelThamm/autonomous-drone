@@ -6,7 +6,7 @@
 * Create spatial-awareness and autonomous flight.
 
 ## Wiring Diagram
-![Label](wiring-diagram.drawio)
+![wiring-diagram](electrical-design/wiring-diagram.png)
 
 ## TODO
 * Is the battery rechargeable?
