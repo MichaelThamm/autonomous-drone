@@ -4,3 +4,5 @@
 
 ## Considerations
 * Since it is operating on a drone it must be a [battery-powered-pi](https://www.circuitbasics.com/how-to-power-your-raspberry-pi-with-a-lithium-battery/).
+* I can view the video via [VNC over SSH wirelessly](https://www.youtube.com/watch?v=5QBFDO5xoZI) while the drown is flying.
+* [Fix high latency using VNC in Pi](https://www.reddit.com/r/RASPBERRY_PI_PROJECTS/comments/sixrr4/why_is_my_raspberry_pi_4_sooooo_slow_when_using/).

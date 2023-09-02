@@ -7,7 +7,7 @@
 
 # Standard Control
 * I need to buy the stack peripherals: controller, radio chip, ...
-* [first-time-setup](https://www.youtube.com/watch?v=F5Qfk_xIzVs)
+* [first-time-stack-setup](https://www.youtube.com/watch?v=F5Qfk_xIzVs)
 
 # Autonomous Control
 ## Raspberry Pi 4 B

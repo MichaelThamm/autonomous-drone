@@ -37,3 +37,4 @@
 * IMPORTANT: Buy the right connector for the battery: XT60=60 amp & XT90=90 amp & EC5=120 amp
 * [batter-power-1m-2f-y-splitter](https://de.aliexpress.com/i/32845175528.html?gatewayAdapt=glo2deu)
 * Require conversion of plug to flying leads: [ali-express-cable-style-regulator](https://de.aliexpress.com/item/1005004462440542.html?gatewayAdapt=glo2deu)
+* [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
