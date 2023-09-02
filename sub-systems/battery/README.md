@@ -8,27 +8,13 @@
 * USB-C to the power port and the [data-to-Pi-see-section-6](https://github.com/luxonis/depthai-hardware/blob/master/DM9095_OAK-D-LITE_DepthAI_USB3C/Datasheet/OAK-D-Lite_Datasheet.pdf)
 * If you don't have USB-C, use battery rated for at least 1A / 5W (preferably 2A / 10W)
 * Always connect the 'power' first before connected the host to the 'data'
-### Connect a spliced USB-C cable
-* Use a usb-c cable splitter for data and power. Then connect battery to splitter for power and data for outgoing to transmitter.
-* Leave all ends disconnected except for the VBUS (power) and GND pins
 
 # Batteries
-* The discharge rate (C) is important to know the max current before overheating and voltage drop.
-* lipo battery voltage ranges from 3.2-4.2v
-* 4s range: 12.8-16.8v
-* 5s range: 16-21v
-* 6s range: 19.2-25.2v
-## Drone battery
-### Requirements
-* 200 A discharge capability + The 5-10A for the Oak-D Lite and Pi
-* 4s - 6s voltage supply
-* 4Ah - 10Ah capacity
-* < 500 grams
-### Sourcing
+## Sourcing
 * [shop-for-battery](https://rc-innovations.es/shop/category/LiPo-batteries-6s-22-2V-high-quality?category=356&search=&attrib=&attrib=)
-### Regulators & Cables
+## Regulators & Cables
 * [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
 * [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
 * IMPORTANT: Buy the right connector for the battery: XT60=60 amp & XT90=90 amp & EC5=120 amp
 * [batter-power-1m-2f-y-splitter](https://de.aliexpress.com/i/32845175528.html?gatewayAdapt=glo2deu)
-* Require conversion of plug to flying leads: [ali-express-cable-style-regulator](https://de.aliexpress.com/item/1005004462440542.html?gatewayAdapt=glo2deu)
+* [EC5-XT60-cable](https://aerobertics.be/de_be/gf1301124)
