@@ -1,4 +1,4 @@
-# drone-project
+# Summary
 * 3D print a frame
 * Install the electrical [sub-systems](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems)
 * Write, implement, and test the flight routines.
