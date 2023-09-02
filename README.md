@@ -5,6 +5,9 @@
 * Implement [computer-vision](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems/vision).
 * Create spatial-awareness and autonomous flight.
 
+## Wiring Diagram
+![Label](wiring-diagram.drawio)
+
 ## TODO
 * Is the battery rechargeable?
 * Gather remaining power requirements for sub-systems.
