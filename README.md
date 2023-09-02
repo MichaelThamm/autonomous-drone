@@ -27,3 +27,5 @@
 * €165.62 - [oak-d-lite-camera](https://www.amazon.ca/Luxonis-Oak-D-Lite-Auto-Focus-Robotics-Camera/dp/B09T5FY68V/ref=sr_1_1?crid=I6IRGSS96H7E&keywords=Luxonis+Oak-D+LITE&qid=1693125367&sprefix=luxonis+oak-d+lite%2Caps%2C201&sr=8-1)
 * €21.12 - [oak-d-y-adapter](https://shop.luxonis.com/collections/accessories/products/oak-y-adapter)
 * €52.79 - [battery-charger](https://www.amazon.com/Charger-Battery-Balance-Discharger-Adapter/dp/B07R18YNZQ/ref=sr_1_5?keywords=6s+lipo+battery+charger&qid=1693670594&sr=8-5)
+* € - [receiver]()
+* € - [remote-control]()
