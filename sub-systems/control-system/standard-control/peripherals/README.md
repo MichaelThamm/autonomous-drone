@@ -9,5 +9,6 @@
 * Note: The Phoenix 2 RunCam is not needed and will be replaced with the Oak-D lite
 
 ## Remote Control
+* [radio-tx-rx](https://oscarliang.com/radio-transmitter/)
 * [remote-control-options](https://etramping.com/best-drone-transmitter/#:~:text=If%20money%20is%20not%20an,Transmitter%20is%20the%20Budget%20Option.)
 * [best-drone-controllers](https://www.droneblog.com/best-drone-controllers/)

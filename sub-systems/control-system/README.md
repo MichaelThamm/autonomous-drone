@@ -2,11 +2,6 @@
 * A [flight-controller](https://oscarliang.com/flight-controller-explained/#Flight-Controller-What-it-is-and-How-it-Works) is a circuit board equipped with sensors that detect the drone’s movements and user commands. With this information, the FC signals the [ESC](https://oscarliang.com/esc/) to move the drone in the desired direction.
 * [SpeedyBee F7 V3 BL32 50A 30x30 Stack](https://www.speedybee.com/speedybee-f7-v3-bl32-50a-30x30-stack/)
 * The Racerstar brushless motors recommend a 45A ESC and the Speedybee F405 V3 FC + 50A BLHeli_S 4in1 ESC is 50A continuous per motor.
-* IMPORTANT: In order to prevent the stack from being burnt out by voltage spikes on powering up, it is strongly recommended to use the Low ESR capacitor in the package.
-
-# Standard Control
-* I need to buy the stack peripherals: controller, radio chip, ...
-* [first-time-stack-setup](https://www.youtube.com/watch?v=F5Qfk_xIzVs)
 
 # Autonomous Control
 ## Raspberry Pi 4 B
