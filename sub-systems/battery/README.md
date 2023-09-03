@@ -15,6 +15,9 @@
 ## Regulators & Cables
 * [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
 * [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
-* IMPORTANT: Buy the right connector for the battery: XT60=60 amp & XT90=90 amp & EC5=120 amp
-* [batter-power-1m-2f-y-splitter](https://de.aliexpress.com/i/32845175528.html?gatewayAdapt=glo2deu)
-* [EC5-XT60-cable](https://aerobertics.be/de_be/gf1301124)
+### EC5 Adapters
+* The battery has an EC5 female connector and the ESC has an XT60 male connector.
+* The [EC5-1female-2male-splitter](https://www.monsterhopups.de/GForce-GF-1320-161-Power-V-Kabel-Parallel-Ec-5-12Awg-Silikon-Kabel-12Cm-1-St?gclid=CjwKCAjw3dCnBhBCEiwAVvLcuxVI_eGr7R65-JryHHRgU1tE2wCVMDSWu2QeOGO1yAjZ_bOgYoCPUxoCe2cQAvD_BwE)  male plugs into the battery.
+* We need 1 [ec5-male-xt60-female-connector](https://www.conrad.at/de/p/reely-adapterkabel-1x-ec5-stecker-1x-xt60-buchse-10-00-cm-re-6903786-2301262.html?gclid=CjwKCAjw3dCnBhBCEiwAVvLcu7gOsc9H2f2ziTZgUW3g5ZNFy8GIwTqeJ3F62mghIVdgPsUuJR3eNhoCr5kQAvD_BwE&utm_source=google&utm_medium=organic&utm_campaign=shopping&ef_id=CjwKCAjw3dCnBhBCEiwAVvLcu7gOsc9H2f2ziTZgUW3g5ZNFy8GIwTqeJ3F62mghIVdgPsUuJR3eNhoCr5kQAvD_BwE:G:s)
+* We need 1 [ec5-male-flying leads](https://hobbyking.com/en_us/ec5-male-to-4mm-banana-plug-charge-lead.html?___store=en_us)
+* I can strip down and splice the wires
