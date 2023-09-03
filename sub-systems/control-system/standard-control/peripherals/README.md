@@ -6,7 +6,14 @@
 * Buzzer: low battery warnings, arming/disarming notifications.
 * [speedybee-receiver-troubleshooting](https://speedybee.zendesk.com/hc/en-us/articles/13971551993243-How-to-set-up-your-receiver-in-Betaflight-configurator-on-SpeedyBee-F7-V3-flight-controller-)
 
-## Remote Control
+# Transmitter & Receiver
+* The FC supports an SBUS Receiver. SBUS allows you to transmit multiple channels of control data over a single wire.
+* Configure the FC to receive SBUS signals and map the channels correctly for throttle, pitch, roll, yaw, and any auxiliary functions.
+* Make sure to choose an ELRS 2.4GHz SBUS receiver compatible with your transmitter and follow the binding and configuration instructions provided with the receiver to establish a secure connection between your transmitter and receiver.
+## Radio Transmitter (Remote Control)
 * [radio-tx-rx](https://oscarliang.com/radio-transmitter/)
-* [remote-control-options](https://etramping.com/best-drone-transmitter/#:~:text=If%20money%20is%20not%20an,Transmitter%20is%20the%20Budget%20Option.)
-* [best-drone-controllers](https://www.droneblog.com/best-drone-controllers/)
+### Top Pick
+* [BetaFPV-LiteRadio-3](https://betafpv.com/products/literadio-3-radio-transmitter)
+* [Manual](https://manuals.plus/betafpv/literadio-3-radio-transmitter-manual#axzz8CFUM5o3S)
+## Radio Receiver
+* [BetaFPV-ELRS-lite-receiver](https://www.drone-fpv-racer.com/en/elrs-lite-receiver-by-betafpv-9218.html#/10019-antenna-tower_antenna)
