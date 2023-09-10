@@ -5,3 +5,6 @@
 
 ## Fusion360
 * [stl-import-to-component](https://www.youtube.com/watch?v=CeMHqa9Pxn8)
+
+## Mechanical Parts
+* [mhq2-hardware-kit](https://web.archive.org/web/20151016071631/http://shop.hovership.com/mhq2-hardware-kit/)
