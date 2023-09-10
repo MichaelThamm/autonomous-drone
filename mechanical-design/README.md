@@ -8,3 +8,4 @@
 
 ## Mechanical Parts
 * [mhq2-hardware-kit](https://web.archive.org/web/20151016071631/http://shop.hovership.com/mhq2-hardware-kit/)
+* [7mm-dampers](https://www.amazon.com/Mirthobby-Anti-Vibration-Absorption-Damping-Quadcopter/dp/B07WGPVZM6)
