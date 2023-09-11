@@ -35,35 +35,4 @@
 * I need to hook into the radio signal with the raspberry-pi's python program
 
 ## ESC Pins
-* To control the motors via the ESC pins (S1 to S4) using a Raspberry Pi or any other microcontroller, you'll need to send PWM (Pulse Width Modulation) signals. PWM signals are a common way to control ESCs because they encode information about the desired motor speed within the width of the pulse.
-* The PWM signal consists of a repeating pulse, where the width (duration) of the pulse determines the motor speed. A wider pulse indicates a higher speed, while a narrower pulse indicates a lower speed.
-* The pulse repetition rate (frequency) is typically around 50 Hz, but this can vary. A pulse width of 1.0 ms might correspond to the minimum speed, while a width of 2.0 ms might correspond to the maximum speed. The exact range can vary between ESCs, so you should check the documentation for your specific ESCs.
-* To send PWM signals from a Raspberry Pi, you can use one of the GPIO pins. Here's a simplified example in Python using the RPi.GPIO library:
-
-import RPi.GPIO as GPIO
-import time
-
-*Set the GPIO pin for ESC control*
-esc_pin = 18  *Replace with the actual GPIO pin you're using*
-
-*Initialize GPIO*
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(esc_pin, GPIO.OUT)
-
-*Create a PWM object with a frequency of 50 Hz*
-pwm = GPIO.PWM(esc_pin, 50)
-
-*Start the PWM signal (0% duty cycle initially)*
-pwm.start(0)
-
-try:
-    while True:
-        *Set the desired motor speed by changing the duty cycle (0-100)*
-        speed = 50  *Replace with the desired speed (0-100)*
-        pwm.ChangeDutyCycle(speed)
-        time.sleep(1)  *Change speed every 1 second*
-
-except KeyboardInterrupt:
-    *Clean up and stop the PWM signal on program exit*
-    pwm.stop()
-    GPIO.cleanup()
+* [pi-to-fc](https://www.reddit.com/r/diydrones/comments/uwreq1/fpv_drone_using_raspberry_pi/?rdt=37023)
