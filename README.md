@@ -5,7 +5,7 @@
 * Size (motor-to-motor): ~250 mm
 
 ![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
-<img src="https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png" alt="your-image-description" style="border: 2px solid  gray;">
+<img src="https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png" alt="your-image-description" style="border: 10px solid  black;">
 
 # Overview
 * 3D print a frame
