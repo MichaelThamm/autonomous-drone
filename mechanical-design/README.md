@@ -1,5 +1,5 @@
 # CAD Models
-* ![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
+![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
 
 * [frame-cad-models](https://www.thingiverse.com/thing:511668)
 * [Hovership-MHQ2-Assembly](https://www.youtube.com/watch?v=2Rxh_tvC2RE)
