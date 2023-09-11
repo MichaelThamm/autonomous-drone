@@ -17,8 +17,8 @@
 ![wiring-diagram](electrical-design/wiring-diagram.png)
 
 # TODO
-* Determine center of mass
 * Determine the method to communicate with Pi to FC/ESC
+* Determine center of mass, Add Y-adapter to CAD
 * Build a Python program skeleton.
 
 # Purchase Links
