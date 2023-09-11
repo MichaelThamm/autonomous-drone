@@ -1,25 +1,28 @@
-# Summary
-## Specifications
+# Specifications
 * Cost: €600
 * Mass: 1.25 kg
 * Upwards Acceleration: 4.4 g
-* Size: 
-## Overview
+* Size (motor-to-motor): ~250 mm
+
+![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
+<img src="https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png" alt="your-image-description" style="border: 2px solid  gray;">
+
+# Overview
 * 3D print a frame
 * Install the electrical [sub-systems](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems)
 * Write, implement, and test the flight routines.
 * Implement [computer-vision](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems/vision).
 * Create spatial-awareness and autonomous flight.
 
-## Wiring Diagram
+# Wiring Diagram
 ![wiring-diagram](electrical-design/wiring-diagram.png)
 
-## TODO
-* Build the CAD model
+# TODO
+* Determine center of mass
+* Determine the method to communicate with Pi to FC/ESC
 * Build a Python program skeleton.
-* How can I tie the Pi into the radio controller to replace the controller with autonomy?
 
-## Purchase Links
+# Purchase Links
 * _Prices are tax included_
 * €34.90 - [2500KV 3-6S Brushless Motor](https://www.banggood.com/4X-Racerstar-2207-BR2207S-Fire-Edition-2500KV-3-6S-Brushless-Motor-For-RC-Drone-FPV-Racing-Frame-Kit-p-1284981.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=AT&utm_content=minha&utm_campaign=aceng-pmax-at-en-pc&currency=EUR&cur_warehouse=CN&createTmp=1&utm_source=googleshopping&utm_medium=cpc_eu&utm_content=lynna&utm_campaign=aceng-pmax-at-en-top5ca1-220705&ad_id=&gclid=CjwKCAjwrranBhAEEiwAzbhNtclSIyOhJE-qOn81EOJPpisrpuhJdMc0ZsXfh0jFA0ho2sGsMIhjzhoCMK4QAvD_BwE)
 * €55.61 - [speedybee-fc-esc-stack](https://www.speedybee.com/speedybee-f405-v3-bls-50a-30x30-fc-esc-stack/)
