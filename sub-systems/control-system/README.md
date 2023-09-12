@@ -1,7 +1,7 @@
 # Standard Control
 ## FC and ESC
 * A [flight-controller](https://oscarliang.com/flight-controller-explained/#Flight-Controller-What-it-is-and-How-it-Works) is a circuit board equipped with sensors that detect the drone’s movements and user commands. With this information, the FC signals the [ESC](https://oscarliang.com/esc/) to move the drone in the desired direction.
-* [cuav-v5-nano-fc](https://ardupilot.org/copter/docs/common-cuav-v5nano-overview.html)
+* [cuav-v5-nano-fc](https://ardupilot.org/copter/docs/common-cuav-v5nano-overview.html) & [cuav-v5-nano-fc-pdf](http://manual.cuav.net/V5-nano.pdf) & [ardupilot-cuav-github](https://github.com/ArduPilot/Schematics/tree/master/CUAV)
 * [speedybee-f7-v3-bl32-50a-4-in-1-esc](https://www.speedybee.com/speedybee-f7-v3-bl32-50a-4-in-1-esc/#Manual)
 * The Racerstar brushless motors recommend a 45A ESC and the Speedybee 50A BLHeli_S 4in1 ESC is 50A continuous per motor.
 
