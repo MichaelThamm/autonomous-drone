@@ -1,8 +1,14 @@
 # Standard Control
-## FC and ESC Stack
+## FC and ESC
 * A [flight-controller](https://oscarliang.com/flight-controller-explained/#Flight-Controller-What-it-is-and-How-it-Works) is a circuit board equipped with sensors that detect the drone’s movements and user commands. With this information, the FC signals the [ESC](https://oscarliang.com/esc/) to move the drone in the desired direction.
-* [SpeedyBee F7 V3 BL32 50A 30x30 Stack](https://www.speedybee.com/speedybee-f7-v3-bl32-50a-30x30-stack/)
-* The Racerstar brushless motors recommend a 45A ESC and the Speedybee F405 V3 FC + 50A BLHeli_S 4in1 ESC is 50A continuous per motor.
+* [cuav-v5-nano-fc](https://ardupilot.org/copter/docs/common-cuav-v5nano-overview.html)
+* [speedybee-f7-v3-bl32-50a-4-in-1-esc](https://www.speedybee.com/speedybee-f7-v3-bl32-50a-4-in-1-esc/#Manual)
+* The Racerstar brushless motors recommend a 45A ESC and the Speedybee 50A BLHeli_S 4in1 ESC is 50A continuous per motor.
+
+## ArduPilot
+* [my-reddit-post](https://www.reddit.com/r/diydrones/comments/16gkw2b/autonomous_raspberry_pi_to_fcesc_stack_control/?utm_source=share&utm_medium=web2x&context=3)
+* [pi-to-fc](https://www.reddit.com/r/diydrones/comments/uwreq1/fpv_drone_using_raspberry_pi/?rdt=37023)
+* [ardupilot-supported-hardware](https://ardupilot.org/copter/docs/common-autopilots.html)
 
 ## Peripheral Explanation
 * Receiver: This is your radio receiver, which communicates with your RC transmitter.
@@ -33,8 +39,3 @@
 * [python-oak-d-lite](https://core-electronics.com.au/guides/oak-d-lite-raspberry-pi/)
 * [first-time-oak-d-setup](https://www.youtube.com/watch?v=e_uPEE_zlDo)
 * I need to hook into the radio signal with the raspberry-pi's python program
-
-## ESC Pins
-* [my-reddit-post](https://www.reddit.com/r/diydrones/comments/16gkw2b/autonomous_raspberry_pi_to_fcesc_stack_control/?utm_source=share&utm_medium=web2x&context=3)
-* [pi-to-fc](https://www.reddit.com/r/diydrones/comments/uwreq1/fpv_drone_using_raspberry_pi/?rdt=37023)
-* [ardupilot-supported-hardware](https://ardupilot.org/copter/docs/common-autopilots.html)
