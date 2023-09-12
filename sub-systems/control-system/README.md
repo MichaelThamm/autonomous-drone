@@ -1,5 +1,5 @@
 # Autonomous Control
-![README.md](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/README.md)
+* [README.md](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/README.md)
 
 # Standard Control
 ## FC and ESC
