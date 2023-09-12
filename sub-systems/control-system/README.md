@@ -9,6 +9,7 @@
 * [my-reddit-post](https://www.reddit.com/r/diydrones/comments/16gkw2b/autonomous_raspberry_pi_to_fcesc_stack_control/?utm_source=share&utm_medium=web2x&context=3)
 * [pi-to-fc](https://www.reddit.com/r/diydrones/comments/uwreq1/fpv_drone_using_raspberry_pi/?rdt=37023)
 * [ardupilot-supported-hardware](https://ardupilot.org/copter/docs/common-autopilots.html)
+* [drone-kit-python]()
 
 ## Peripheral Explanation
 * Receiver: This is your radio receiver, which communicates with your RC transmitter.
