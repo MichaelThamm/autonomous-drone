@@ -9,8 +9,3 @@
 * [autonomous-projects](https://www.reddit.com/r/diydrones/comments/uwreq1/fpv_drone_using_raspberry_pi/)
 * [serial-pi](https://www.electronicwings.com/raspberry-pi/raspberry-pi-uart-communication-using-python-and-c)
 * [pi-gpio-uart](https://linuxhint.com/gpio-pinout-raspberry-pi/)
-### UART Programming
-* MSP (Multiwii Serial Protocol) or UAVTalk.
-* Configure the UART port's baud rate to match the flight controller's settings. This information should also be available in the documentation or online resources.
-* For MSP: You can use the msp430-communication library.
-* For UAVTalk: You may need to implement your own parser or find an existing library if available.
