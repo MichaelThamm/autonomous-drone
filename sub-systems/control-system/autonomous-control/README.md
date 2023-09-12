@@ -4,6 +4,14 @@
 
 # Raspberry Pi 4 Model B
 * The Raspberry Pi 4 Model B is required due to the integration of computer vision and autonomous drone control.
+* Use UART (serial) to connect the TX pin from the Raspberry Pi to the RX pin on the CUAV V5 Nano, and vice versa.
+* To use BLHeli Passthrough with your CUAV Nano, Speedybee ESC, and Raspberry Pi configuration, you'll need to connect the ESC to the output pins (pins 9, 10, or 11) on the CUAV Nano flight controller.
+* To communicate with the ESC from your Raspberry Pi. Here's a step-by-step guide:
+  * Connect the signal (PWM) wires from your Speedybee ESCs to one of the motor output pins on the CUAV Nano that supports BLHeli Passthrough (pins 9, 10, or 11). You can choose one of these pins based on your preference and available space on your drone frame.
+  * Connect the ground (GND) wires from the ESCs to the ground (GND) on the CUAV Nano to establish a common ground reference. Provide power to the ESCs from your drone's power distribution system. Ensure that the voltage supplied matches the requirements of your ESCs (e.g., 6S for a 6-cell LiPo battery).
+  * Connect your Raspberry Pi to the CUAV Nano flight controller using UART (serial) communication. You will need to use one of the available UART ports on both the Raspberry Pi and the CUAV Nano. Ensure that the wiring for TX (transmit), RX (receive), and ground (GND) is correct.
+  * On your Raspberry Pi, you'll need BLHeli Passthrough software to communicate with the ESCs. One popular software tool for this purpose is "BLHeliSuite" or "BLHeli Configurator," which you can install on your Raspberry Pi. These tools allow you to configure and tune the settings of your ESCs using BLHeli Passthrough.
+  * Launch the BLHeli Passthrough software on your Raspberry Pi. Connect to your flight controller (CUAV Nano) via the UART connection. Once connected, you should be able to access and configure the settings of the ESCs connected to the BLHeli Passthrough-supported motor output pins (9, 10, or 11).
 
 ## Considerations
 * Since it is operating on a drone it must be a [battery-powered-pi](https://www.circuitbasics.com/how-to-power-your-raspberry-pi-with-a-lithium-battery/).
