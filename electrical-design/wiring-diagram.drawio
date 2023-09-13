@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-        <mxGraphModel dx="878" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1492" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -60,16 +60,16 @@
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2" value="EC5&#xA;splitter" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="2" value="EC5&#10;splitter" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="190" y="470" width="70" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="voltage&#xA;regulator" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="4" value="voltage&#10;regulator" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="430" y="590" width="90" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="CUAV V5 Nano&#xA;flight controller" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="6" value="CUAV V5 Nano&#10;flight controller" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="830" y="190" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="50A BLHeli_S 4in1&#xA;Electronic speed&#xA;controller (ESC)" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="7" value="50A BLHeli_S 4in1&#10;Electronic speed&#10;controller (ESC)" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="400" y="370" width="160" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
@@ -143,7 +143,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="0hPKIBFiTmCVOufTVkQz-29" value="Oak-D Lite&#xA;Camera" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="0hPKIBFiTmCVOufTVkQz-29" value="Oak-D Lite&#10;Camera" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="1080" y="650" width="102" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="0hPKIBFiTmCVOufTVkQz-30" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tr897aCAvD2A82pSiaK6-65" target="0hPKIBFiTmCVOufTVkQz-29" edge="1">
@@ -225,7 +225,7 @@
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="0hPKIBFiTmCVOufTVkQz-47" value="6s 3.7Ah&#xA;60C battery" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="0hPKIBFiTmCVOufTVkQz-47" value="6s 3.7Ah&#10;60C battery" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="190" y="380" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="0hPKIBFiTmCVOufTVkQz-48" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0hPKIBFiTmCVOufTVkQz-47" target="2" edge="1">
@@ -255,7 +255,7 @@
                         <mxPoint x="959" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="0hPKIBFiTmCVOufTVkQz-59" value="Other&#xA;Peripherals" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="0hPKIBFiTmCVOufTVkQz-59" value="Other&#10;Peripherals" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="910" y="425" width="100" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;EC5&lt;br&gt;female&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#23445D;" parent="1" vertex="1" connectable="0">
@@ -310,7 +310,7 @@
                 <mxCell id="9Nch-Mfv7iRZc4vsGo1m-35" value="Communication" style="rounded=1;fillColor=none;strokeColor=default;shadow=1;gradientColor=none;fontStyle=1;fontColor=#23445D;fontSize=14;strokeWidth=3;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="90" y="750" width="638" height="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-36" value="CUAV V5 Nano&#xA;flight controller" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-36" value="CUAV V5 Nano&#10;flight controller" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="120" y="800" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9Nch-Mfv7iRZc4vsGo1m-37" value="Pi-4B" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
@@ -327,7 +327,7 @@
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-41" value="drone's status, GPS, altitude,&#xA;battery voltage, sensor data" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-41" value="drone's status, GPS, altitude,&#10;battery voltage, sensor data" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="310" y="880" width="210" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9Nch-Mfv7iRZc4vsGo1m-43" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#82b366;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=horizontal;fillColor=#d5e8d4;dashed=1;" parent="1" target="9Nch-Mfv7iRZc4vsGo1m-41" edge="1">
@@ -339,15 +339,15 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-44" value="Pi controls drone mission, and flight&#xA;routines based on sensor inputs or scripts." style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="961" width="300" height="58" as="geometry"/>
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-44" value="Pi controls drone mission, and flight&#10;routines based on sensor inputs or scripts." style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="963.5" width="310" height="58" as="geometry"/>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-45" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#82b366;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=horizontal;fillColor=#d5e8d4;dashed=1;" parent="1" edge="1">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-45" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#82b366;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=horizontal;fillColor=#d5e8d4;dashed=1;" parent="1" edge="1" target="9Nch-Mfv7iRZc4vsGo1m-44">
                     <mxGeometry x="112" y="915.5" width="100" height="100" as="geometry">
                         <mxPoint x="340" y="830" as="sourcePoint"/>
                         <mxPoint x="290" y="961" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="290" y="900"/>
+                            <mxPoint x="285" y="900"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -361,7 +361,7 @@
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-49" value="Oak-D&#xA;Lite Camera" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-49" value="Oak-D&#10;Lite Camera" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="580" y="959" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9Nch-Mfv7iRZc4vsGo1m-50" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#82b366;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=horizontal;fillColor=#d5e8d4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=1;" parent="1" source="9Nch-Mfv7iRZc4vsGo1m-37" target="9Nch-Mfv7iRZc4vsGo1m-49" edge="1">
@@ -383,13 +383,13 @@
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-73" value="CUAV V5&#xA;Nano FC" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-73" value="CUAV V5&#10;Nano FC" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="1100" y="800" width="80" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-79" value="LiteRadio 3&#xA;Radio&#xA;Transmitter " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=13;horizontal=1;" parent="1" vertex="1">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-79" value="LiteRadio 3&#10;Radio&#10;Transmitter " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=13;horizontal=1;" parent="1" vertex="1">
                     <mxGeometry x="767" y="957" width="100" height="62" as="geometry"/>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-87" value="ELRS&#xA;Receiver" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=13;horizontal=1;" parent="1" vertex="1">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-87" value="ELRS&#10;Receiver" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=13;horizontal=1;" parent="1" vertex="1">
                     <mxGeometry x="936" y="963.5" width="80" height="51" as="geometry"/>
                 </mxCell>
                 <mxCell id="9Nch-Mfv7iRZc4vsGo1m-89" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#82b366;elbow=horizontal;fillColor=#d5e8d4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9Nch-Mfv7iRZc4vsGo1m-87" target="9Nch-Mfv7iRZc4vsGo1m-73" edge="1">
@@ -409,13 +409,24 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;communication&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;section for details&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];horizontal=0;labelBackgroundColor=none;fontColor=#23445D;" vertex="1" connectable="0" parent="1">
+                <mxCell id="37" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;communication&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;section for details&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];horizontal=0;labelBackgroundColor=none;fontColor=#23445D;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="841.9954545454545" y="530.0027272727273" as="geometry">
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="38" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;peripherals&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;section for details&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];horizontal=0;labelBackgroundColor=none;fontColor=#23445D;" vertex="1" connectable="0" parent="1">
+                <mxCell id="38" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;peripherals&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;section for details&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];horizontal=0;labelBackgroundColor=none;fontColor=#23445D;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="909.9954545454545" y="460.00272727272727" as="geometry">
+                        <mxPoint x="22" y="64" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.wireless_connection" vertex="1" parent="1">
+                    <mxGeometry x="998" y="530" width="42" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Laptop Ground &#10;Control Station" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="1052" y="530" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;VNC&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#23445D;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="981.9954545454545" y="450.00272727272727" as="geometry">
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
                 </mxCell>
