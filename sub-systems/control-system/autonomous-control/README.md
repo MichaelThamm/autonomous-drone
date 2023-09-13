@@ -14,6 +14,7 @@
 ## Blue OS for Pi
 * [BlueOS](https://github.com/bluerobotics/BlueOS)
 
+
 ## MAVLink
 * MAVLink is the communication protocol used by many ground control station software, such as [Mission Planner](http://ardupilot.org/planner/docs/mission-planner-installation.html).
 * [cuav-github](https://github.com/cuav)
@@ -21,6 +22,7 @@
 * [MAVLink-docs](https://mavlink.io/en/)
 * [MAVSDK](https://mavsdk.mavlink.io/main/en/index.html)
 * Ardupilot uses mavlink to communicate and there are things like "mavproxy" which does all the routing to external devices, and "pymavlink" for programmatically talking to the flight controller.
+* [ardupilot-raspberry-pi-via-mavlink](https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html)
 
 ## Considerations
 * Since it is operating on a drone it must be a [battery-powered-pi](https://www.circuitbasics.com/how-to-power-your-raspberry-pi-with-a-lithium-battery/).
@@ -28,7 +30,6 @@
 * [Fix high latency using VNC in Pi](https://www.reddit.com/r/RASPBERRY_PI_PROJECTS/comments/sixrr4/why_is_my_raspberry_pi_4_sooooo_slow_when_using/).
 
 # Ardupilot & Dronekit
-* [ardupilot-raspberry-pi-via-mavlink](https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html)
 * [ardupilot-supported-hardware](https://ardupilot.org/copter/docs/common-autopilots.html)
 * [drone-kit-python](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/dronekit.py)
 * [drone-kit-python-motor-control](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/overridemotor.py)
