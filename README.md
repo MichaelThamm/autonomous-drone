@@ -1,5 +1,5 @@
 # Specifications
-* Cost: €600
+* Cost: €750
 * Mass: 1.25 kg
 * Upwards Acceleration: 4.4 g
 * Size (motor-to-motor): ~250 mm
@@ -17,15 +17,14 @@
 ![wiring-diagram](electrical-design/wiring-diagram.png)
 
 # TODO
-* Determine the method to communicate with Pi to FC/ESC
 * Determine center of mass, Add Y-adapter to CAD
 * Build a Python program skeleton.
 
 # Purchase Links
 * _Prices are tax included_
 * €34.90 - [2500KV 3-6S Brushless Motor](https://www.banggood.com/4X-Racerstar-2207-BR2207S-Fire-Edition-2500KV-3-6S-Brushless-Motor-For-RC-Drone-FPV-Racing-Frame-Kit-p-1284981.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=AT&utm_content=minha&utm_campaign=aceng-pmax-at-en-pc&currency=EUR&cur_warehouse=CN&createTmp=1&utm_source=googleshopping&utm_medium=cpc_eu&utm_content=lynna&utm_campaign=aceng-pmax-at-en-top5ca1-220705&ad_id=&gclid=CjwKCAjwrranBhAEEiwAzbhNtclSIyOhJE-qOn81EOJPpisrpuhJdMc0ZsXfh0jFA0ho2sGsMIhjzhoCMK4QAvD_BwE)
-* €xx.xx - [cuav-v5-nano-flight-controller](https://store.cuav.net/shop/v5-nano/)
-* €55.61 - [speedybee-f7-v3-BL32-50A-4-in-1-esc](https://www.speedybee.com/speedybee-f7-v3-bl32-50a-4-in-1-esc/#Manual)
+* €166.72 - [cuav-v5-nano-flight-controller](https://store.cuav.net/shop/v5-nano/)
+* €47.51 - [speedybee-f7-v3-BL32-50A-4-in-1-esc](https://www.speedybee.com/speedybee-f7-v3-bl32-50a-4-in-1-esc/#Manual)
 * €16.90 - [BetaFPV-ELRS-lite-receiver](https://www.drone-fpv-racer.com/en/elrs-lite-receiver-by-betafpv-9218.html#/10019-antenna-tower_antenna)
 * €55.57 - [remote-control](https://betafpv.com/products/literadio-3-radio-transmitter)
 * €75.12 - [3.7Ah-60C-6S-battery](https://rc-innovations.es/shop/gea37006s60e5-gens-ace-3700mah-6s-22-2v-60c-lipo-battery-10298?page=3&category=356&attrib=&attrib=&attrib=24-122#attr=7464,7465,7466)
