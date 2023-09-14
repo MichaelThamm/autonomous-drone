@@ -11,7 +11,7 @@
 
 # Batteries
 ## Sourcing
-* [shop-for-battery](https://rc-innovations.es/shop/category/LiPo-batteries-6s-22-2V-high-quality?category=356&search=&attrib=&attrib=)
+* [shop-for-battery](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjy5PeRtqqBAxXJiP0HHS2fB-oQFnoECBEQAQ&url=https%3A%2F%2Fwww.canadahobbies.ca%2Fcategory%2Frc-cars%2Fbatteries-for-cars%2F&usg=AOvVaw05v5mvMgbiTdw41yo8yrtY&opi=89978449)
 ## Regulators & Cables
 * [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
 * [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
