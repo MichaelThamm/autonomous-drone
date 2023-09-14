@@ -11,10 +11,12 @@
 
 # Batteries
 ## Sourcing
-* [shop-for-battery](https://rc-innovations.es/shop/category/LiPo-batteries-6s-22-2V-high-quality?category=356&search=&attrib=&attrib=)
+* [shop-for-battery](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjy5PeRtqqBAxXJiP0HHS2fB-oQFnoECBEQAQ&url=https%3A%2F%2Fwww.canadahobbies.ca%2Fcategory%2Frc-cars%2Fbatteries-for-cars%2F&usg=AOvVaw05v5mvMgbiTdw41yo8yrtY&opi=89978449)
 ## Regulators & Cables
 * [usbc-flying-leads](https://www.reichelt.at/at/de/usb-c-stecker-auf-freie-enden-sw-20-cm-usb-c-awg22-20-p292505.html)
-* [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
+* [best-converter!](https://www.ti.com/product/LM3150?keyMatch=PMP10650)
+  * [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
+  * I could get x 2 of [6S-5v-3A-Converter](https://www.amazon.de/KINGDUO-Converter-Ausgang-15x8Mm-Racing/dp/B07GVCDJ72) since they are cheap and more consistent than a variable output knob.
 ### EC5 Adapters
 * The battery has an EC5 female connector and the ESC has an XT60 male connector.
 * The [EC5-1female-2male-splitter](https://www.monsterhopups.de/GForce-GF-1320-161-Power-V-Kabel-Parallel-Ec-5-12Awg-Silikon-Kabel-12Cm-1-St?gclid=CjwKCAjw3dCnBhBCEiwAVvLcuxVI_eGr7R65-JryHHRgU1tE2wCVMDSWu2QeOGO1yAjZ_bOgYoCPUxoCe2cQAvD_BwE)  male plugs into the battery.
