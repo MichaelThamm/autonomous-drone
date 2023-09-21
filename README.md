@@ -23,12 +23,12 @@
 # Purchase Links
 * _Prices are tax included_
 * €34.90 - [2500KV 3-6S Brushless Motor](https://www.banggood.com/4X-Racerstar-2207-BR2207S-Fire-Edition-2500KV-3-6S-Brushless-Motor-For-RC-Drone-FPV-Racing-Frame-Kit-p-1284981.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=AT&utm_content=minha&utm_campaign=aceng-pmax-at-en-pc&currency=EUR&cur_warehouse=CN&createTmp=1&utm_source=googleshopping&utm_medium=cpc_eu&utm_content=lynna&utm_campaign=aceng-pmax-at-en-top5ca1-220705&ad_id=&gclid=CjwKCAjwrranBhAEEiwAzbhNtclSIyOhJE-qOn81EOJPpisrpuhJdMc0ZsXfh0jFA0ho2sGsMIhjzhoCMK4QAvD_BwE)
-* €166.72 - [cuav-v5-nano-flight-controller](https://store.cuav.net/shop/v5-nano/)
+* €168.26 - [cuav-v5-nano-flight-controller](https://store.cuav.net/shop/v5-nano/)
 * €47.51 - [speedybee-f7-v3-BL32-50A-4-in-1-esc](https://www.speedybee.com/speedybee-f7-v3-bl32-50a-4-in-1-esc/#Manual)
   * I chose to buy the €55.89 - [speedybee-f405-v3-bls-50a-30x30-fc-esc-stack](https://www.speedybee.com/speedybee-f405-v3-bls-50a-30x30-fc-esc-stack/) instead since the whole stack was €10 more but gives you an FC.
 * €16.90 - [BetaFPV-ELRS-lite-receiver](https://www.drone-fpv-racer.com/en/elrs-lite-receiver-by-betafpv-9218.html#/10019-antenna-tower_antenna)
 * €55.57 - [remote-control](https://betafpv.com/products/literadio-3-radio-transmitter)
-* €75.12 - [3.7Ah-60C-6S-battery](https://rc-innovations.es/shop/gea37006s60e5-gens-ace-3700mah-6s-22-2v-60c-lipo-battery-10298?page=3&category=356&attrib=&attrib=&attrib=24-122#attr=7464,7465,7466)
+* €92.4 - [4Ah-70C-6S-battery](https://www.snhobbies.com/product_info.php?cPath=903_43_909&products_id=14901)
 * €52.79 - [battery-charger](https://www.amazon.com/Charger-Battery-Balance-Discharger-Adapter/dp/B07R18YNZQ/ref=sr_1_5?keywords=6s+lipo+battery+charger&qid=1693670594&sr=8-5)
 * €7.99 - [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
 * €67.00 - [raspberry-pi-4b](https://www.amazon.de/-/en/Raspberry-ARM-Cortex-A72-WLAN-ac-Bluetooth-Micro-HDMI-Single/dp/B07TC2BK1X/ref=sr_1_4?keywords=raspberry%2Bpi&qid=1691395648&sr=8-4&th=1)
