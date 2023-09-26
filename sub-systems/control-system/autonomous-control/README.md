@@ -12,9 +12,6 @@
   * Connect your Raspberry Pi to the CUAV Nano flight controller using UART (serial) communication. You will need to use one of the available UART ports on both the Raspberry Pi and the CUAV Nano.
   * On your Raspberry Pi, you'll need BLHeli Passthrough software to communicate with the ESCs. One popular software tool for this purpose is "BLHeliSuite" or "BLHeli Configurator," which you can install on your Raspberry Pi.
 
-## Blue OS for Pi
-* [BlueOS](https://github.com/bluerobotics/BlueOS)
-
 ## MAVLink
 * MAVLink is the communication protocol used by many ground control station software, such as [Mission Planner](http://ardupilot.org/planner/docs/mission-planner-installation.html).
 * [cuav-github](https://github.com/cuav)
