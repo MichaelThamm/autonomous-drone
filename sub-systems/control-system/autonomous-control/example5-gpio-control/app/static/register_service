@@ -1,9 +1,0 @@
-{
-    "name":"Ex 5: PWM",
-    "description":"Example Extension",
-    "icon":"mdi-clock-fast",
-    "company":"Blue Robotics",
-    "version":"1.0.0",
-    "webpage":"https://example.com",
-    "api":""
- }
