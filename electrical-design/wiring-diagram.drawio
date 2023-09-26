@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-        <mxGraphModel dx="1492" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1243" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -322,7 +322,7 @@
                         <mxPoint x="-270" y="870" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-40" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;UART-Pin0&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#23445D;fontStyle=1;fontSize=13;" parent="1" vertex="1" connectable="0">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-40" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;UART-TELEM&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#23445D;fontStyle=1;fontSize=13;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="236.99545454545455" y="753.0027272727273" as="geometry">
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
@@ -342,7 +342,7 @@
                 <mxCell id="9Nch-Mfv7iRZc4vsGo1m-44" value="Pi controls drone mission, and flight&#10;routines based on sensor inputs or scripts." style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="130" y="963.5" width="310" height="58" as="geometry"/>
                 </mxCell>
-                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-45" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#82b366;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=horizontal;fillColor=#d5e8d4;dashed=1;" parent="1" edge="1" target="9Nch-Mfv7iRZc4vsGo1m-44">
+                <mxCell id="9Nch-Mfv7iRZc4vsGo1m-45" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#82b366;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=horizontal;fillColor=#d5e8d4;dashed=1;" parent="1" target="9Nch-Mfv7iRZc4vsGo1m-44" edge="1">
                     <mxGeometry x="112" y="915.5" width="100" height="100" as="geometry">
                         <mxPoint x="340" y="830" as="sourcePoint"/>
                         <mxPoint x="290" y="961" as="targetPoint"/>
@@ -419,13 +419,13 @@
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.wireless_connection" vertex="1" parent="1">
+                <mxCell id="39" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.wireless_connection" parent="1" vertex="1">
                     <mxGeometry x="998" y="530" width="42" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Laptop Ground &#10;Control Station" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="1052" y="530" width="130" height="60" as="geometry"/>
+                <mxCell id="40" value="Laptop running&#10;Mission Planner" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="1052" y="535" width="130" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;VNC&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#23445D;" vertex="1" connectable="0" parent="1">
+                <mxCell id="41" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;VNC&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#23445D;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="981.9954545454545" y="450.00272727272727" as="geometry">
                         <mxPoint x="22" y="64" as="offset"/>
                     </mxGeometry>
