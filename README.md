@@ -3,6 +3,7 @@
 * Mass: 1.25 kg
 * Upwards Acceleration: 4.4 g
 * Size (motor-to-motor): ~250 mm
+* [Specs-Calculator-Online](https://ecalc.ch/xcoptercalc.php)
 
 ![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
 
