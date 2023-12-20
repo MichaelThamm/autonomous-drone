@@ -17,8 +17,8 @@
 ![wiring-diagram](electrical-design/wiring-diagram.png)
 
 # TODO
-* Determine center of mass, Add Y-adapter to CAD
-* Build a Python program skeleton.
+* Create a venv called "autonomous-quadcopter" and freeze the requirements and install in venv
+* Determine ESC to CUAV V5 Nano comms
 
 # Purchase Links
 * _Prices are tax included_
