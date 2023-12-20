@@ -3,7 +3,7 @@
 * [my-reddit-post](https://www.reddit.com/r/diydrones/comments/16gkw2b/autonomous_raspberry_pi_to_fcesc_stack_control/?utm_source=share&utm_medium=web2x&context=3)
 
 # 4in1 ESC to CUAV V5 Nano
-* [BLHeli_S](https://discuss.ardupilot.org/t/pixhawk-2-4-8-with-4-in-1-esc/38729
+* [BLHeli_S](https://discuss.ardupilot.org/t/pixhawk-2-4-8-with-4-in-1-esc/38729)
 * [BLHeli32](https://discuss.ardupilot.org/t/velox-4in1-esc-to-pixhawk-2-4-8/71547)
 * [CUAV-V5-Nano-BLHeli32](https://discuss.ardupilot.org/t/blheli32-pass-through-not-working-on-cuav-v5-nano-but-working-on-cuav-v5/89030)
 
