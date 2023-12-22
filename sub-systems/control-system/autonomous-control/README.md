@@ -5,6 +5,10 @@
 # ArduCopter
 * [supported-hardware](https://ardupilot.org/copter/docs/common-autopilots.html)
 * [first-time-guide](https://ardupilot.org/copter/)
+* [connect-escs-and-motors](https://ardupilot.org/copter/docs/connect-escs-and-motors.html)
+* [mandatory-hardware-config](https://ardupilot.org/copter/docs/configuring-hardware.html)
+* [esc-calibration](https://ardupilot.org/copter/docs/esc-calibration.html#esc-calibration)
+  * This is likely done in MissionPlanner or via direct connect to ESC
 * [flight-modes](https://ardupilot.org/copter/docs/flight-modes.html#flight-modes)
 * [safety-practices](https://ardupilot.org/copter/docs/safety-multicopter.html#safety-multicopter)
 
@@ -14,6 +18,7 @@
 * [BLHeli_S](https://discuss.ardupilot.org/t/pixhawk-2-4-8-with-4-in-1-esc/38729)
 * [BLHeli32](https://discuss.ardupilot.org/t/velox-4in1-esc-to-pixhawk-2-4-8/71547)
 * [CUAV-V5-Nano-BLHeli32](https://discuss.ardupilot.org/t/blheli32-pass-through-not-working-on-cuav-v5-nano-but-working-on-cuav-v5/89030)
+* [CUAV-ESC-calibration](https://discuss.ardupilot.org/t/cuav-v5-nano-calibration-issue/73486)
 
 ## CUAV V5 Nano
 * __Connect CUAV to SpeedyBee BLS 50A With (TELEM, +, GND) to (TELEM2)__
