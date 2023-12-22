@@ -9,6 +9,7 @@
 * [safety-practices](https://ardupilot.org/copter/docs/safety-multicopter.html#safety-multicopter)
 
 ## 4in1 ESC to Autopilot forum discussions
+* [bat-powered-esc&fc-usbc-flash-betaflight](https://www.reddit.com/r/fpv/comments/13tatg4/speedybee_f405_bls_50a_30x30_4in1_esc_and/?rdt=55447)
 * [BLHeli_S](https://discuss.ardupilot.org/t/pixhawk-2-4-8-with-4-in-1-esc/38729)
 * [BLHeli32](https://discuss.ardupilot.org/t/velox-4in1-esc-to-pixhawk-2-4-8/71547)
 * [CUAV-V5-Nano-BLHeli32](https://discuss.ardupilot.org/t/blheli32-pass-through-not-working-on-cuav-v5-nano-but-working-on-cuav-v5/89030)
