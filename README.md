@@ -3,6 +3,7 @@
 * Mass: 1.25 kg
 * Upwards Acceleration: 4.4 g
 * Size (motor-to-motor): ~250 mm
+* [Specs-Calculator-Online](https://ecalc.ch/xcoptercalc.php)
 
 ![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
 
@@ -17,8 +18,8 @@
 ![wiring-diagram](electrical-design/wiring-diagram.png)
 
 # TODO
-* Determine center of mass, Add Y-adapter to CAD
-* Build a Python program skeleton.
+* Create a venv called "autonomous-quadcopter" and freeze the requirements and install in venv
+* Determine ESC to CUAV V5 Nano comms
 
 # Purchase Links
 * _Prices are tax included_
@@ -30,7 +31,7 @@
 * €55.57 - [remote-control](https://betafpv.com/products/literadio-3-radio-transmitter)
 * €92.4 - [4Ah-70C-6S-battery](https://www.snhobbies.com/product_info.php?cPath=903_43_909&products_id=14901)
 * €52.79 - [battery-charger](https://www.amazon.com/Charger-Battery-Balance-Discharger-Adapter/dp/B07R18YNZQ/ref=sr_1_5?keywords=6s+lipo+battery+charger&qid=1693670594&sr=8-5)
-* €7.99 - [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
+* €7.99 - [buck-converter-5V-6A](https://universal-solder.ca/product/dc-dc-converter-5v-6a-output-9-36v-input-usb-port/)
 * €67.00 - [raspberry-pi-4b](https://www.amazon.de/-/en/Raspberry-ARM-Cortex-A72-WLAN-ac-Bluetooth-Micro-HDMI-Single/dp/B07TC2BK1X/ref=sr_1_4?keywords=raspberry%2Bpi&qid=1691395648&sr=8-4&th=1)
 * €138.85 - [oak-d-lite-camera](https://shop.luxonis.com/products/oak-d-lite-1)
 * €17.71 - [oak-d-y-adapter](https://shop.luxonis.com/collections/accessories/products/oak-y-adapter)
