@@ -1,5 +1,6 @@
 # Autonomous Control
 * [README.md](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/README.md)
+* [cuav-nano-to-4-in-1-esc](https://discuss.ardupilot.org/t/cuav-nano-to-4-in-1-esc/110884)
 
 # Standard Control
 ## FC and ESC
