@@ -22,6 +22,7 @@
 * __Connect CUAV to SpeedyBee BLS 50A With (TELEM, +, GND) to (TELEM2)__
 * [quick-start-cuav-v5-nano](https://docs.px4.io/main/en/assembly/quick_start_cuav_v5_nano.html)
 * I need to use [M1 to M4 on the CUAV nano](https://ardupilot.org/copter/docs/common-cuav-v5nano-overview.html#pwm-output) since they are in the same group and then configure it to use DSHOT.
+  * Only need the signal wires since the ESC powers the motors [signal-wires](https://github.com/ArduPilot/ardupilot_wiki/blob/master/common/source/docs/common-flight-controller-wiring.rst)
 * Raspberry Pi to the CUAV Nano via UART (TELEM2).
 * To use BLHeli Passthrough with your CUAV Nano and Speedybee ESC:
   * Connect the signal (PWM) wires from your Speedybee ESCs to one of the motor output pins on the CUAV Nano that supports BLHeli Passthrough __(pins 9, 10, or 11)__.
