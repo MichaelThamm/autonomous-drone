@@ -28,6 +28,7 @@
   * Connect the signal (PWM) wires from your Speedybee ESCs to one of the motor output pins on the CUAV Nano that supports BLHeli Passthrough __(pins 9, 10, or 11)__.
   * __Connect the ground (GND) wires from the ESCs to the ground (GND) on the CUAV Nano to establish a common ground reference__.
   * [BLHeliSuite](https://oscarliang.com/connect-flash-blheli-32-esc/) or BLHeli Configurator can be used to configure the ESC.
+  * [No-GPS-flight](https://ardupilot.org/copter/docs/common-non-gps-navigation-landing-page.html)
 
 # Raspberry Pi 4 Model B
 * The Raspberry Pi 4 Model B is required due to the integration of computer vision and autonomous drone control.
