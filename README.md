@@ -7,19 +7,15 @@
 
 ![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
 
-# Overview
-* 3D print a frame
-* Install the electrical [sub-systems](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems)
-* Write, implement, and test the flight routines.
-* Implement [computer-vision](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems/vision).
-* Create spatial-awareness and autonomous flight.
+# Project Overview
+1. 3D print the drone frame
+2. Install the electrical [sub-systems](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems)
+3. Configure the Ardupilot parameters using Mission Planner
+4. Write, implement, and test the [Python Dronekit](https://github.com/MichaelThamm/autonomous-drone/tree/main/sub-systems/control-system/python-code) flight routines.
+5. Implement [computer-vision](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems/vision).
+6. Create spatial-awareness and autonomous flight.
 
-# Wiring Diagram
 ![wiring-diagram](electrical-design/wiring-diagram.png)
-
-# TODO
-* Create a venv called "autonomous-quadcopter" and freeze the requirements and install in venv
-* Determine ESC to CUAV V5 Nano comms
 
 # Purchase Links
 * _Prices are tax included_
