@@ -6,10 +6,10 @@
 * [Specs-Calculator-Online](https://ecalc.ch/xcoptercalc.php)
 
 ![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
-![front](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Camera.jpg)
-![top](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Top.jpg)
-![side](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Side.jpg)
-![esc](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/ESC.jpg)
+![front](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Camera.png)
+![top](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Top.png)
+![side](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Side.png)
+![esc](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/ESC.png)
 # Project Overview
 1. 3D print the drone frame
 2. Install the electrical [sub-systems](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems)
