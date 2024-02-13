@@ -1,6 +1,15 @@
 from dronekit import connect, VehicleMode
 import time
 
+def takeoff(tgt_altitude):
+    vehicle.simple_takeoff(tgt_altitude)
+    while True:
+        altitude = vehicle.location.global_relative_frame.alt
+        if altitude >= tgt_altitude - 1:
+            print("Altitude reached")
+            break
+        time.sleep(1)
+
 # Connect to the flight controller
 vehicle = connect('/dev/ttyS0', baud=57600, wait_ready=True)  # Adjust the serial port and baud rate
 
@@ -22,9 +31,17 @@ try:
 
     # You can adjust the throttle value over time to control motor speed
     # For example, to increase throttle gradually:
-    # for i in range(1500, 1700, 10):
-    #     vehicle.channels.overrides['1'] = i
-    #     time.sleep(0.1)
+    for i in range(1500, 1700, 10):
+        vehicle.channels.overrides['1'] = i
+        time.sleep(0.1)
+
+    # Takeoff
+    takeoff(10)
+    vehicle.airspeed = 7
+    wp1 = LocationGlobalRelative(0, 0, 0)
+    vehicle.simple_goto(wp1)
+    print("I am now doing something")
+    vehicle_mode = VehicleMode("RTL")
 
     # Wait for some time (e.g., 5 seconds)
     time.sleep(5)
@@ -36,3 +53,5 @@ try:
     while vehicle.armed:
         print("Waiting for disarming...")
         time.sleep
+
+    print("Script Completed")
