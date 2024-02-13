@@ -6,7 +6,7 @@
 * [Specs-Calculator-Online](https://ecalc.ch/xcoptercalc.php)
 
 ![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
-| First Header  | Second Header | Third | Fourth |
+|  |  |  |  |
 | ------------- | ------------- | ------------- |------------ | 
 | ![front](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Camera.png)  | ![top](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Top.png)  | ![side](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Side.png) | ![esc](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/ESC.png) |
 
