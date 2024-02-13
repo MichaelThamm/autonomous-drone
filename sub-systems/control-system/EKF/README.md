@@ -1,3 +1,4 @@
+[ardupilot-no-gps](https://discuss.ardupilot.org/t/arducopter-dronekit-arming-without-gps/113093/3)
 [understanding-altitude-ekf](https://ardupilot.org/copter/docs/common-understanding-altitude.html)
 
 The EKF subsystem is responsible for generating attitude, velocity, position, and altitude estimates for the vehicle so that the navigation and control systems can properly operate. EKF takes the IMU, GPS, and BARO sensor inputs and integrates them to provide these estimates, one of which is the Estimated ALT.
