@@ -6,21 +6,15 @@ sudo apt update && sudo apt upgrade
 sudo dpkg --configure -a
 
 # SSH
-sudo apt install ssh net-tools
-# Get IP address
-ifconfig
+sudo apt install -y ssh
 
-# Enable SSH
-# https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-20-04/
-sudo apt install openssh-server
-# Enable VNC
-# https://serverastra.com/docs/Tutorials/Setting-Up-and-Securing-SSH-on-Ubuntu-22.04%3A-A-Comprehensive-Guide
+# Enable RDP in Sharing settings
 
 # Git
 # NOTE: the rest of this code can be executed after git clone
-sudo apt install git
+sudo apt install -y git
 
 # Virtual environment
-apt install virtualenv
+sudo apt install -y virtualenv
 
 # Python
