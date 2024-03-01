@@ -1,9 +1,9 @@
-# OS: Ubuntu 23.10
+# OS: Ubuntu 20.04.5 Server LTS
+# https://askubuntu.com/questions/1348560/is-ubuntu-20-04-desktop-for-raspberry-pi-4-no-longer-available
 
 # Update remotes
 sudo apt update && sudo apt upgrade
-# Configure all packages
-sudo dpkg --configure -a
+sudo apt-get install ubuntu-desktop
 
 # SSH
 sudo apt install -y ssh
