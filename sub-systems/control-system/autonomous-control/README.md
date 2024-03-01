@@ -32,9 +32,7 @@
   * [No-GPS-flight](https://ardupilot.org/copter/docs/common-non-gps-navigation-landing-page.html)
 
 # Raspberry Pi 4 Model B
-## Architecture
 * OS: [20.04.6-LTS (Focal Fossa)](https://releases.ubuntu.com/focal/)
-* ROS: [ROS Noetic Ninjemys](https://wiki.ros.org/ROS/Installation)
 
 * The Raspberry Pi 4 Model B is required due to the integration of computer vision and autonomous drone control.
 * I can view the video via RDP over SSH wirelessly while the drone is flying.
@@ -42,7 +40,9 @@
 * The following sections are modules which can be installed on the Pi for drone functionality:
   * [Dronekit](#dronekit)
   * [MAVLink](#mavlink)
-  * [Oak-D-Lite](#oak-d-lite)
+  * [Oak-D-Lite](#oak-d lite)
+  * [](#oak-d-lite)
+
 
 ## Dronekit
 * [drone-kit-python](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/dronekit.py)
@@ -55,6 +55,10 @@
 * Ardupilot uses mavlink to communicate and there are things like "mavproxy" which does all the routing to external devices, and "pymavlink" for programmatically talking to the flight controller.
 * [ardupilot-raspberry-pi-via-mavlink](https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html)
 
-## Oak-D-Lite
+## Oak-D Lite
 * [python-oak-d-lite](https://core-electronics.com.au/guides/oak-d-lite-raspberry-pi/)
 * [first-time-oak-d-setup](https://www.youtube.com/watch?v=e_uPEE_zlDo)
+
+## ROS Noetic Ninjemys
+* [ros-noetic-ninjemys-distro](https://wiki.ros.org/ROS/Installation)
+* [ros-noetic-ninjemys-install-guide](https://www.youtube.com/watch?v=UGHE7HyzRXw)
