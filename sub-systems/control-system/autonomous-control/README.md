@@ -32,8 +32,12 @@
   * [No-GPS-flight](https://ardupilot.org/copter/docs/common-non-gps-navigation-landing-page.html)
 
 # Raspberry Pi 4 Model B
+## Architecture
+* OS: [20.04.6-LTS (Focal Fossa)](https://releases.ubuntu.com/focal/)
+* ROS: [ROS Noetic Ninjemys](https://wiki.ros.org/ROS/Installation)
+
 * The Raspberry Pi 4 Model B is required due to the integration of computer vision and autonomous drone control.
-* I can view the video via [VNC over SSH wirelessly](https://www.youtube.com/watch?v=5QBFDO5xoZI) while the drone is flying.
+* I can view the video via RDP over SSH wirelessly while the drone is flying.
 
 * The following sections are modules which can be installed on the Pi for drone functionality:
   * [Dronekit](#dronekit)
