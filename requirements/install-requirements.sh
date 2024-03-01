@@ -6,12 +6,23 @@ sudo apt update && sudo apt upgrade
 # Install Ubuntu Desktop
 sudo apt-get install ubuntu-desktop
 # Install Other Packages
-sudo apt install -y curl ssh git virtualenv
-# Enable RDP in Sharing settings
+sudo apt install -y curl ssh git virtualenv net-tools xrdp
 
 # Git
-git config --global user.name "Michael Thamm"
-git config --global user.email "mikethamm44@gmail.com"
+git config --global user.name "Your Name"
+git config --global user.email "Your Email"
+
+# RDP
+## Enable RDP by adding user in certficicate 
+sudo adduser xrdp ssl-cert
+## Get IP address to RDP firewall allow list
+ifconfig
+ip_address=$(ifconfig wlan0 | awk '/inet / {print $2}' | cut -d ":" -f 2)
+sudo ufw allow from "$ip_address"/24 to any port 3389
+sudo ufw reload
+sudo ufw status
+sudo systemctl status xrdp
+# Note: Only one user can be logged in for RDP
 
 # ROS
 ## Enable Source Code in Software & Updates
