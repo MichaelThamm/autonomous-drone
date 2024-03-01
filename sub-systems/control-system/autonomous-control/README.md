@@ -40,8 +40,8 @@
 * The following sections are modules which can be installed on the Pi for drone functionality:
   * [Dronekit](#dronekit)
   * [MAVLink](#mavlink)
-  * [Oak-D-Lite](#oak-d lite)
-  * [](#oak-d-lite)
+  * [Oak-D Lite](#oak-d-lite)
+  * [ROS Noetic Ninjemys](#ros-noetic-ninjemys)
 
 
 ## Dronekit
