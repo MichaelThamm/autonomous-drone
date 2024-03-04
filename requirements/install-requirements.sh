@@ -16,10 +16,9 @@ echo "cd ~/drone-project" >> ~/.bashrc
 # Install Other Packages
 sudo apt install -y curl ssh virtualenv net-tools xrdp
 
-# Git
-git config --global user.name "Your Name"
-git config --global user.email "Your Email"
-
-
-
-# DroneKit
+# Install Order
+# WARNING: Be careful running these scripts as is, use as a guide
+# 1. install-depthai.sh
+# 2. install-ros.sh
+# 3. install-ceres.sh
+# 4. install-dronekit.sh
