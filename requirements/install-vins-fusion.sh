@@ -28,6 +28,7 @@ docker pull michaelthamm/autonomous-drone:vins-fusion
 
 
 # Some things to look at for next time
+# Oak-D has internal IMU and can object track: https://docs.luxonis.com/projects/api/en/latest/components/nodes/object_tracker/
 # Ardupilot forums ROS2 https://ardupilot.org/dev/docs/ros.html
 # I Should use ROS 2 with Oak D https://robofoundry.medium.com/oak-d-lite-camera-ros2-setup-1e74ed03350d
 # Ardupilot Oak-D https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-2/79307 & https://discuss.ardupilot.org/t/opencv-ai-aka-oak-d-and-ardupilot/76235
