@@ -28,10 +28,13 @@ docker pull michaelthamm/autonomous-drone:vins-fusion
 
 
 # Some things to look at for next time
-# I Should use ROS 2
+# Ardupilot forums ROS2 https://ardupilot.org/dev/docs/ros.html
+# I Should use ROS 2 with Oak D https://robofoundry.medium.com/oak-d-lite-camera-ros2-setup-1e74ed03350d
+# Ardupilot Oak-D https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-2/79307 & https://discuss.ardupilot.org/t/opencv-ai-aka-oak-d-and-ardupilot/76235
 # https://docs.openvins.com/pages.html -> Should be better than HKUST VINS-Fusion
 # https://www.youtube.com/watch?v=b1-lKmUttzc
 # https://www.youtube.com/watch?v=4GrbbyUhM2g
+# https://discuss.ardupilot.org/t/slam-with-oak-d-s2-raspberry-pi-4-and-pixhawk-4/92477
 # I might need to tag the image to make it ros:vins-fusion since its referenced in the run.sh file
 # sudo apt-get update && sudo apt-get install ros-${ROS_DISTRO}-rviz
 # Should I be running run.sh from host or container?
