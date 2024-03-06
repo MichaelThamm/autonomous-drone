@@ -16,6 +16,9 @@ echo "cd ~/drone-project" >> ~/.bashrc
 # Install Other Packages
 sudo apt install -y curl ssh virtualenv net-tools xrdp
 
+# Add user to docker group
+sudo usermod -aG docker michaelthamm
+
 # Install Order
 # WARNING: Be careful running these scripts as is, use as a guide
 # 1. install-depthai.sh
