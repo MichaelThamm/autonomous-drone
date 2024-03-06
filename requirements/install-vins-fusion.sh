@@ -8,6 +8,7 @@ cd ~/drone-project
 # Choose -> BUILD or PULL
 
 # PULL
+docker login
 docker pull michaelthamm/autonomous-drone:vins-fusion
 
 # BUILD (If remote image doesn"t exist)
