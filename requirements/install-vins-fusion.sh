@@ -31,3 +31,5 @@ docker pull michaelthamm/autonomous-drone:vins-fusion
 # I might need to tag the image to make it ros:vins-fusion since its referenced in the run.sh file
 # sudo apt-get update && sudo apt-get install ros-${ROS_DISTRO}-rviz
 # Should I be running run.sh from host or container?
+# I might need to mount the docker socket
+# I need to copy in the .bag file upon container creation
