@@ -28,6 +28,10 @@ docker pull michaelthamm/autonomous-drone:vins-fusion
 
 
 # Some things to look at for next time
+# I Should use ROS 2
+# https://docs.openvins.com/pages.html -> Should be better than HKUST VINS-Fusion
+# https://www.youtube.com/watch?v=b1-lKmUttzc
+# https://www.youtube.com/watch?v=4GrbbyUhM2g
 # I might need to tag the image to make it ros:vins-fusion since its referenced in the run.sh file
 # sudo apt-get update && sudo apt-get install ros-${ROS_DISTRO}-rviz
 # Should I be running run.sh from host or container?
