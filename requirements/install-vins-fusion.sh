@@ -5,8 +5,8 @@ cd ~/drone-project/catkin_ws/src
 git clone https://github.com/HKUST-Aerial-Robotics/VINS-Fusion.git
 cd ~/drone-project
 
-# Choose -> BUILD or PULL
 
+# Choose -> BUILD or PULL
 # PULL
 docker login
 docker pull michaelthamm/autonomous-drone:vins-fusion
@@ -25,3 +25,9 @@ docker pull michaelthamm/autonomous-drone:vins-fusion
 # sudo swapon /swapfile
 
 # docker build -t michaelthamm/autonomous-drone:vins-fusion ./catkin_ws/src/VINS-Fusion/docker/
+
+
+# Some things to look at for next time
+# I might need to tag the image to make it ros:vins-fusion since its referenced in the run.sh file
+# sudo apt-get update && sudo apt-get install ros-${ROS_DISTRO}-rviz
+# Should I be running run.sh from host or container?
