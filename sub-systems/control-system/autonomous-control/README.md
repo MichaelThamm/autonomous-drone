@@ -4,6 +4,16 @@
 * [my-ardupilot-post->ekf-oak-d-lite](https://discuss.ardupilot.org/t/arducopter-dronekit-arming-without-gps/113093/3)
 * [my-reddit-post](https://www.reddit.com/r/diydrones/comments/16gkw2b/autonomous_raspberry_pi_to_fcesc_stack_control/?utm_source=share&utm_medium=web2x&context=3)
 
+# DepthAI to CUAV running ArduCopter
+* start with enabling SSH and RDP
+* [start-with-this](https://docs.luxonis.com/en/latest/pages/tutorials/first_steps/#first-steps-with-depthai)
+* [ardupilot-depthai-scripts](https://github.com/rishabsingh3003/ardupilot_depthai_scripts?tab=readme-ov-file#depthai-scripts-for-ardupilot)
+  * main.py runs on the RPi and uses the DepthAI library
+  * main_app.cpp runs on an ESP32 device. It sends Mavlink messages to control a drone based on the tracked object's position.
+    * Using a CUAV V5 Nano running ArduCopter instead of an ESP32, you'll need to make some adjustments:
+    * CUAV V5 Nano communicates with DepthAI RPi. If your CUAV V5 Nano communicates with ArduCopter using Mavlink messages, you may need to adjust the Mavlink message format and sending mechanism in the send_position_target function.
+
+
 # ArduCopter
 * [supported-hardware](https://ardupilot.org/copter/docs/common-autopilots.html)
 * [first-time-guide](https://ardupilot.org/copter/)
