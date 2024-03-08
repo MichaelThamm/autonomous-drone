@@ -1,20 +1,33 @@
 #!/bin/bash
 
-# OS: Ubuntu 20.04.5 LTS
-# https://askubuntu.com/questions/1348560/is-ubuntu-20-04-desktop-for-raspberry-pi-4-no-longer-available
+# OS: Ubuntu 22.04 LTS
+# Note: Make sure to install from Raspberry Pi Imager
 
 # Update Indexes and Packages
 sudo apt update && sudo apt upgrade
-# Install Ubuntu Desktop
-sudo apt-get install ubuntu-desktop
 
 # Create the drone directory and make default
 mkdir drone-project
 cd drone-project
 echo "cd ~/drone-project" >> ~/.bashrc
 
+# Setup RDP
+# 1. Update to Ubuntu Desktop sharing settings
+# 2. To enable RDP even on reboot:
+     # WARNING: This will leave passwords unencrypted and not safe for Production
+     # 1. https://askubuntu.com/questions/1403943/22-04-remote-desktop-sharing-authentication-password-changes-every-reboot
+# 3. Connect to the Remote Address on another host
+
+# Setup SSH
+sudo apt install openssh-server
+sudo systemctl enable --now ssh
+sudo systemctl status ssh
+
+# Clone Git Repo
+git clone https://www.github.com/MichaelThamm/autonomous-drone
+
 # Install Other Packages
-sudo apt install -y curl ssh virtualenv net-tools xrdp
+sudo apt install -y curl ssh virtualenv net-tools
 
 # Add user to docker group
 sudo usermod -aG docker michaelthamm
