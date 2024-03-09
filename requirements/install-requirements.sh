@@ -15,7 +15,7 @@ echo "cd ~/drone-project" >> ~/.bashrc
 # 1. Update to Ubuntu Desktop sharing settings
 # 2. To enable RDP even on reboot:
      # WARNING: This will leave passwords unencrypted and not safe for Production
-     # 1. https://askubuntu.com/questions/1403943/22-04-remote-desktop-sharing-authentication-password-changes-every-reboot
+     # 1. https://askubuntu.com/a/1409857
 # 3. Connect to the Remote Address on another host
 
 # Setup SSH
