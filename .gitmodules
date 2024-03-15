@@ -1,0 +1,9 @@
+[submodule "sub-systems/control-system/oak-d-lite/sub-systems/control-system/oak-d-lite/depthai-slam"]
+	path = sub-systems/control-system/oak-d-lite/sub-systems/control-system/oak-d-lite/depthai-slam
+	url = https://github.com/bharath5673/depthai-slam
+[submodule "sub-systems/control-system/oak-d-lite/autonomous-drone/sub-systems/control-system/oak-d-lite"]
+	path = sub-systems/control-system/oak-d-lite/autonomous-drone/sub-systems/control-system/oak-d-lite
+	url = https://github.com/bharath5673/depthai-slam
+[submodule "sub-systems/control-system/oak-d-lite/depthai-slam"]
+	path = sub-systems/control-system/oak-d-lite/depthai-slam
+	url = https://github.com/bharath5673/depthai-slam
