@@ -7,3 +7,6 @@
 [submodule "sub-systems/control-system/oak-d-lite/depthai-slam"]
 	path = sub-systems/control-system/oak-d-lite/depthai-slam
 	url = https://github.com/bharath5673/depthai-slam
+[submodule "sub-systems/vision/oak-d-lite/depthai-slam"]
+	path = sub-systems/vision/oak-d-lite/depthai-slam
+	url = https://github.com/bharath5673/depthai-slam
