@@ -10,6 +10,11 @@
 | ------------- | ------------- | ------------- |------------ | 
 | ![front](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Camera.png)  | ![top](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Top.png)  | ![side](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Side.png) | ![esc](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/ESC.png) |
 
+|  |  |
+| ------------- | ------------- | 
+| ![oak-mono](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-mono.png)  | ![oak-ir](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-ir.png)  |
+
+
 # Project Overview
 1. 3D print the drone frame
 2. Install the electrical [sub-systems](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems)
