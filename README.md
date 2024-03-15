@@ -14,6 +14,9 @@
 | ------------- | ------------- | ------------- |------------ | 
 | ![mono-1](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-mono-1.png)  | ![mono-2](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-mono-2.png)  | ![ir-1](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-ir-1.png) | ![ir-2](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-ir-2.png) |
 
+|  |  | 
+| ------------- | ------------ | 
+| ![slam-1](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/depthai-slam-1.png)  | ![slam-2](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/depthai-slam-2.png)  |
 
 # Project Overview
 1. 3D print the drone frame
