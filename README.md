@@ -10,9 +10,9 @@
 | ------------- | ------------- | ------------- |------------ | 
 | ![front](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Camera.png)  | ![top](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Top.png)  | ![side](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Side.png) | ![esc](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/ESC.png) |
 
-|  |  |
-| ------------- | ------------- | 
-| ![oak-mono](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-mono.png)  | ![oak-ir](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-ir.png)  |
+|  |  |  |  |
+| ------------- | ------------- | ------------- |------------ | 
+| ![mono-1](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-mono-1.png)  | ![mono-2](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-mono-2.png)  | ![ir-1](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-ir-1.png) | ![ir-2](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-ir-2.png) |
 
 
 # Project Overview
