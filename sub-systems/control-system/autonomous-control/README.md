@@ -40,6 +40,9 @@
   * __Connect the ground (GND) wires from the ESCs to the ground (GND) on the CUAV Nano to establish a common ground reference__.
   * [BLHeliSuite](https://oscarliang.com/connect-flash-blheli-32-esc/) or BLHeli Configurator can be used to configure the ESC.
   * [No-GPS-flight](https://ardupilot.org/copter/docs/common-non-gps-navigation-landing-page.html)
+  * Rishabh Singh - [oak-on-drones](https://docs.luxonis.com/en/latest/pages/oak_on_drones/)
+    * [part-1](https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-1/79306)
+    * [part-2](https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-2/79307)
 
 # Raspberry Pi 4 Model B
 * OS: [20.04.6-LTS (Focal Fossa)](https://releases.ubuntu.com/focal/)
