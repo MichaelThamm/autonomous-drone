@@ -3,6 +3,7 @@
 * [my-ardupilot-post->cuav-nano-to-4-in-1-esc](https://discuss.ardupilot.org/t/cuav-nano-to-4-in-1-esc/110884)
 * [my-ardupilot-post->ekf-oak-d-lite](https://discuss.ardupilot.org/t/arducopter-dronekit-arming-without-gps/113093/3)
 * [my-reddit-post](https://www.reddit.com/r/diydrones/comments/16gkw2b/autonomous_raspberry_pi_to_fcesc_stack_control/?utm_source=share&utm_medium=web2x&context=3)
+* [cubepilot flow-senor](https://docs.cubepilot.org/user-guides/flow-senor/here-flow)
 
 # DepthAI to CUAV running ArduCopter
 * start with enabling SSH and RDP
