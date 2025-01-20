@@ -24,5 +24,5 @@ python depthai-python/examples/MobileNet/rgb_mobilenet.py
 
 # Core Electronics Youtube Vid
 # https://core-electronics.com.au/guides/raspberry-pi/oak-d-lite-raspberry-pi/
-# Enable the Virtual Environment within the Tools Options in Thonny
-# https://nascentmaker.com/tutorials/2022/02/08/how-to-use-virtualenv-in-thonny.html
+# 1. In terminal (or thonny) set the interpreter to /home/pi/Desktop/luxonis/envDepthAI/bin/python3
+# 2. Run the ~/Desktop/luxonis/depthai/depthai_demo.py

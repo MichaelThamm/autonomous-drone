@@ -46,8 +46,6 @@
     * [part-2](https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-2/79307)
 
 # Raspberry Pi 4 Model B
-* OS: [20.04.6-LTS (Focal Fossa)](https://releases.ubuntu.com/focal/)
-
 * The Raspberry Pi 4 Model B is required due to the integration of computer vision and autonomous drone control.
 * I can view the video via RDP over SSH wirelessly while the drone is flying.
 
