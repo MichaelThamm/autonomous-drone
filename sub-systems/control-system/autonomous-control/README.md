@@ -21,7 +21,7 @@
 * [connect-escs-and-motors](https://ardupilot.org/copter/docs/connect-escs-and-motors.html)
 * [mandatory-hardware-config](https://ardupilot.org/copter/docs/configuring-hardware.html)
 * [esc-calibration](https://ardupilot.org/copter/docs/esc-calibration.html#esc-calibration)
-  * This is likely done in MissionPlanner or via direct connect to ESC
+  * Via GCS or direct connect to ESC
 * [flight-modes](https://ardupilot.org/copter/docs/flight-modes.html#flight-modes)
 * [safety-practices](https://ardupilot.org/copter/docs/safety-multicopter.html#safety-multicopter)
 
@@ -57,13 +57,12 @@
   * [Oak-D Lite](#oak-d-lite)
   * [ROS Noetic Ninjemys](#ros-noetic-ninjemys)
 
-
 ## Dronekit
 * [drone-kit-python](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/dronekit.py)
 * [drone-kit-python-motor-control](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/overridemotor.py)
 
 ## MAVLink
-* MAVLink is the communication protocol used by many ground control station software, such as [Mission Planner](http://ardupilot.org/planner/docs/mission-planner-installation.html).
+* MAVLink is the communication protocol used by many GCS software.
 * [MAVLink-docs](https://mavlink.io/en/)
 * [MAVSDK](https://mavsdk.mavlink.io/main/en/index.html)
 * Ardupilot uses mavlink to communicate and there are things like "mavproxy" which does all the routing to external devices, and "pymavlink" for programmatically talking to the flight controller.
