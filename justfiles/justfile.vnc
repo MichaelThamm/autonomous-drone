@@ -20,7 +20,7 @@ server-config:
     vncpasswd
     cat > ~/.vnc/xstartup <<EOF
 #!/bin/bash
-xrdb /home/pi/.Xresources
+xrdb $HOME/.Xresources
 startxfce4 &
 EOF
     
@@ -35,12 +35,11 @@ After=syslog.target network.target
 [Service]
 Type=forking
 User=pi
-Group=pi
 WorkingDirectory=/home/pi
 
 PIDFile=/home/pi/.vnc/%H:%i.pid
 ExecStartPre=-/usr/bin/vncserver -kill :%i > /dev/null 2>&1
-ExecStart=/usr/bin/vncserver -depth 24 -geometry 1280x800 -localhost :%i
+ExecStart=/usr/bin/vncserver -depth 24 -geometry 1920x1080 -localhost :%i
 ExecStop=/usr/bin/vncserver -kill :%i
 
 [Install]
@@ -53,4 +52,7 @@ EOF
     sudo systemctl status vncserver@1
 
 host-tunnel:
-    ssh -L 59000:localhost:5901 -C -N -l sammy
+    ssh -L 59000:localhost:5901 -C -N -l pi 192.168.88.2
+    # Reminder: this is the host $USER password
+    # Open VNC Viewer of choice
+    # Reminder: this prompts for the server password (change with vncpasswd)
