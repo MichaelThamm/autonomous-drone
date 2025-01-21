@@ -1,6 +1,8 @@
 # Configure Xfce desktop
 # https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04
 
+home-dir := '/home/pi'
+
 server-all: server-dependencies server-config server-vnc-service
 host-all: host-tunnel
 
@@ -18,7 +20,7 @@ server-config:
     vncpasswd
     cat > ~/.vnc/xstartup <<EOF
 #!/bin/bash
-xrdb $HOME/.Xresources
+xrdb /home/pi/.Xresources
 startxfce4 &
 EOF
     
