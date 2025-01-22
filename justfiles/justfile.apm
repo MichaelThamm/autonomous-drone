@@ -1,0 +1,11 @@
+# Configure APM Planner
+# https://github.com/ArduPilot/apm_planner
+
+git-dir := '~/work/repos/drone/apm_planner'
+
+default:
+  just --list
+
+apm-planner:
+    cd {{git-dir}} && ./release/apmplanner2
+    # Connect to ttyACM0 @ 115200
