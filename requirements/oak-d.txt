@@ -1,3 +1,4 @@
+# https://github.com/luxonis/depthai-python/issues/1092
 requests==2.26.0
 --extra-index-url https://www.piwheels.org/simple
 numpy>=2.2.2
