@@ -34,7 +34,7 @@
 - Plug in the cables to the battery last!
 
 ## Discharging
-- Failsafe for 3V per cell
+- Failsafe for 3V per cell = 18V
 
 ## Storage
 - Minimum voltage > 3V
