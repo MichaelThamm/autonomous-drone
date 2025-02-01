@@ -50,14 +50,8 @@
 * I can view the video via RDP over SSH wirelessly while the drone is flying.
 
 * The following sections are modules which can be installed on the Pi for drone functionality:
-  * [Dronekit](#dronekit)
   * [MAVLink](#mavlink)
   * [Oak-D Lite](#oak-d-lite)
-  * [ROS Noetic Ninjemys](#ros-noetic-ninjemys)
-
-## Dronekit
-* [drone-kit-python](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/dronekit.py)
-* [drone-kit-python-motor-control](https://github.com/MichaelThamm/autonomous-drone/blob/main/sub-systems/control-system/autonomous-control/overridemotor.py)
 
 ## MAVLink
 * MAVLink is the communication protocol used by many GCS software.
@@ -69,7 +63,3 @@
 ## Oak-D Lite
 * [python-oak-d-lite](https://core-electronics.com.au/guides/oak-d-lite-raspberry-pi/)
 * [first-time-oak-d-setup](https://www.youtube.com/watch?v=e_uPEE_zlDo)
-
-## ROS Noetic Ninjemys
-* [ros-noetic-ninjemys-distro](https://wiki.ros.org/ROS/Installation)
-* [ros-noetic-ninjemys-install-guide](https://www.youtube.com/watch?v=UGHE7HyzRXw)

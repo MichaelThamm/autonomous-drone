@@ -22,7 +22,7 @@
 1. 3D print the drone frame
 2. Install the electrical [sub-systems](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems)
 3. Configure the Ardupilot parameters using a ground control station (GCS) APM Planner (for Linux) or Mission Planner (for Windows)
-4. Write, implement, and test the [Python Dronekit](https://github.com/MichaelThamm/autonomous-drone/tree/main/sub-systems/control-system/python-code) flight routines.
+4. Write, implement, and test the [pymavlink code](https://github.com/MichaelThamm/autonomous-drone/tree/main/sub-systems/control-system/python-code) flight routines.
 5. Implement [computer-vision](https://github.com/MichaelThamm/drone-project/tree/main/sub-systems/vision).
 6. Create spatial-awareness and autonomous flight.
 
