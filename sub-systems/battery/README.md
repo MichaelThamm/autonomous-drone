@@ -24,3 +24,18 @@
 * We need 1 [ec5-male-xt60-female-connector](https://www.conrad.at/de/p/reely-adapterkabel-1x-ec5-stecker-1x-xt60-buchse-10-00-cm-re-6903786-2301262.html?gclid=CjwKCAjw3dCnBhBCEiwAVvLcu7gOsc9H2f2ziTZgUW3g5ZNFy8GIwTqeJ3F62mghIVdgPsUuJR3eNhoCr5kQAvD_BwE&utm_source=google&utm_medium=organic&utm_campaign=shopping&ef_id=CjwKCAjw3dCnBhBCEiwAVvLcu7gOsc9H2f2ziTZgUW3g5ZNFy8GIwTqeJ3F62mghIVdgPsUuJR3eNhoCr5kQAvD_BwE:G:s)
 * We need 1 [ec5-male-flying leads](https://hobbyking.com/en_us/ec5-male-to-4mm-banana-plug-charge-lead.html?___store=en_us)
 * I can strip down and splice the wires
+
+## My 6S1P 70c/140c 4000mAh 22.2V battery
+### Charging
+- There are 2 types of charging: constant current (CC) and constant voltage (CV)
+  - Either is fine
+- Recommended 1C - 2C charge rate
+  - Translates to 4A - 8A charging
+- Plug in the cables to the battery last!
+
+## Discharging
+- Failsafe for 3V per cell = 18V
+
+## Storage
+- Minimum voltage > 3V
+- Recommended 50% charge
