@@ -1,8 +1,6 @@
 # Configure APM Planner
 # https://github.com/ArduPilot/apm_planner
 
-git-dir := '~/work/repos/drone/apm_planner'
-
 default:
   just --list
 
