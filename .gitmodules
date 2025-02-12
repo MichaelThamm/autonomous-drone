@@ -10,3 +10,6 @@
 [submodule "sub-systems/vision/oak-d-lite/depthai-slam"]
 	path = sub-systems/vision/oak-d-lite/depthai-slam
 	url = https://github.com/bharath5673/depthai-slam
+[submodule "sub-systems/control-system/pymavlink/iq_pymavlink_tutorial"]
+	path = sub-systems/control-system/pymavlink/iq_pymavlink_tutorial
+	url = https://github.com/Intelligent-Quads/iq_pymavlink_tutorial
