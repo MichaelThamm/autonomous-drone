@@ -9,11 +9,7 @@ apm-planner:
     chmod +x APM-Planner_2-2.0.30-rc3-x86_64.AppImage
     ./APM-Planner_2-2.0.30-rc3-x86_64.AppImage
     # Connect to ttyACM0 @ 115200 in app UI
-
-inav-configurator:
-  # https://github.com/iNavFlight/inav-configurator#linux
   
-
 config-ardupilot:
   # LiDAR settings (https://ardupilot.org/copter/docs/common-hereflow.html)
   CAN_P1_DRIVER, 1

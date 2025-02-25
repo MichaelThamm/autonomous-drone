@@ -6,6 +6,15 @@ git-dir := '~/work/repos/drone/apm_planner'
 default:
   just --list
 
+flashing-checklist:
+  # 1. Set FC to DFU mode (Holding boot button before power)
+  # 2. Take a backup of the FC config
+  # 3. Ensure Betaflight is flashed to FC (I was not able to read ESC data with INAV or Ardupilot)
+  # 4. Check that there is a connection between the FC and ESC
+  # 5. Power up the ESC with an external battery
+  # 6. Connect to https://esc-configurator.com/ in a Chrome browser!
+  # 7. Connect to the FC and read data
+
 betaflight-configurator:
   https://app.betaflight.com/#  # Open this with chrome
   # For issues with flashing:
