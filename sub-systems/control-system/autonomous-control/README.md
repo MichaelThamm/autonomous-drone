@@ -1,18 +1,9 @@
-# Project Direction Advice
-* [my-ardupilot-post->cuav-nano-to-4-in-1-esc](https://discuss.ardupilot.org/t/cuav-nano-to-4-in-1-esc/110884)
-* [my-ardupilot-post->ekf-oak-d-lite](https://discuss.ardupilot.org/t/arducopter-dronekit-arming-without-gps/113093/3)
-* [my-reddit-post](https://www.reddit.com/r/diydrones/comments/16gkw2b/autonomous_raspberry_pi_to_fcesc_stack_control/?utm_source=share&utm_medium=web2x&context=3)
-* [cubepilot flow-senor](https://docs.cubepilot.org/user-guides/flow-senor/here-flow)
-
-# DepthAI to CUAV running ArduCopter
-* start with enabling SSH and RDP
-* [start-with-this](https://docs.luxonis.com/en/latest/pages/tutorials/first_steps/#first-steps-with-depthai)
+# DepthAI to ArduCopter
+* start with enabling SSH and VNC
+* [manual-DepthAI-installation](https://docs.luxonis.com/en/latest/pages/tutorials/first_steps/#first-steps-with-depthai)
 * [ardupilot-depthai-scripts](https://github.com/rishabsingh3003/ardupilot_depthai_scripts?tab=readme-ov-file#depthai-scripts-for-ardupilot)
-  * main.py runs on the RPi and uses the DepthAI library
-  * main_app.cpp runs on an ESP32 device. It sends Mavlink messages to control a drone based on the tracked object's position.
-    * Using a CUAV V5 Nano running ArduCopter instead of an ESP32, you'll need to make some adjustments:
-    * CUAV V5 Nano communicates with DepthAI RPi. If your CUAV V5 Nano communicates with ArduCopter using Mavlink messages, you may need to adjust the Mavlink message format and sending mechanism in the send_position_target function.
-
+  * `main.py` runs on the RPi and uses the DepthAI library
+  * `main_app.cpp` runs on an ESP32 device. It sends Mavlink messages to control a drone based on the tracked object's position.
 
 # ArduCopter
 * [supported-hardware](https://ardupilot.org/copter/docs/common-autopilots.html)
@@ -24,25 +15,18 @@
 * [flight-modes](https://ardupilot.org/copter/docs/flight-modes.html#flight-modes)
 * [safety-practices](https://ardupilot.org/copter/docs/safety-multicopter.html#safety-multicopter)
 
-## 4in1 ESC to ArduCopter forum discussions
-* [CUAV-ESC-Calibration-MissionPlanner](https://discuss.ardupilot.org/t/cuav-v5-nano-calibration-issue/73486)
-  * [CUAV-V5-Nano-BLHeli32-Passthrough-Not-Working](https://discuss.ardupilot.org/t/blheli32-pass-through-not-working-on-cuav-v5-nano-but-working-on-cuav-v5/89030)
-* [BLHeli32-4-in-1-ESC-to-PixHawk](https://discuss.ardupilot.org/t/velox-4in1-esc-to-pixhawk-2-4-8/71547)
+## EKF
+- [ardupilot-no-gps](https://discuss.ardupilot.org/t/arducopter-dronekit-arming-without-gps/113093/3)
+- [understanding-altitude-ekf](https://ardupilot.org/copter/docs/common-understanding-altitude.html)
 
-### CUAV V5 Nano
-* __Connect CUAV to SpeedyBee BLS 50A With (TELEM, +, GND) to (TELEM2)__
-* [quick-start-cuav-v5-nano](https://docs.px4.io/main/en/assembly/quick_start_cuav_v5_nano.html)
-* I need to use [M1 to M4 on the CUAV nano](https://ardupilot.org/copter/docs/common-cuav-v5nano-overview.html#pwm-output) since they are in the same group and then configure it to use DSHOT.
-  * Only need the signal wires since the ESC powers the motors [signal-wires](https://github.com/ArduPilot/ardupilot_wiki/blob/master/common/source/docs/common-flight-controller-wiring.rst)
-* Raspberry Pi to the CUAV Nano via UART (TELEM2).
-* To use BLHeli Passthrough with your CUAV Nano and Speedybee ESC:
-  * Connect the signal (PWM) wires from your Speedybee ESCs to one of the motor output pins on the CUAV Nano that supports BLHeli Passthrough __(pins 9, 10, or 11)__.
-  * __Connect the ground (GND) wires from the ESCs to the ground (GND) on the CUAV Nano to establish a common ground reference__.
-  * [BLHeliSuite](https://oscarliang.com/connect-flash-blheli-32-esc/) or BLHeli Configurator can be used to configure the ESC.
-  * [No-GPS-flight](https://ardupilot.org/copter/docs/common-non-gps-navigation-landing-page.html)
-  * Rishabh Singh - [oak-on-drones](https://docs.luxonis.com/en/latest/pages/oak_on_drones/)
-    * [part-1](https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-1/79306)
-    * [part-2](https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-2/79307)
+The EKF is responsible for generating attitude, velocity, position, and altitude estimates for the vehicle. EKF takes the IMU, GPS, and BARO sensor inputs with the vertical distance sensor.
+
+## ESC to ArduCopter forum discussions
+* [BLHeliSuite-8bit](https://github.com/bitdump/BLHeli/releases) (only on Windows 🥀) or BLHeli Configurator can be used to configure the ESC.
+* [No-GPS-flight](https://ardupilot.org/copter/docs/common-non-gps-navigation-landing-page.html)
+* Rishabh Singh - [oak-on-drones](https://docs.luxonis.com/en/latest/pages/oak_on_drones/)
+  * [part-1](https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-1/79306)
+  * [part-2](https://discuss.ardupilot.org/t/easy-way-to-integrate-ai-with-ardupilot-oak-d-part-2/79307)
 
 # Raspberry Pi 4 Model B
 * The Raspberry Pi 4 Model B is required due to the integration of computer vision and autonomous drone control.

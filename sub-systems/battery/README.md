@@ -18,12 +18,6 @@
   * [5v-12A-wiring](https://www.mouser.at/new/texas-instruments/ti-lm25148-synchronous-buck-dc-dc-controller/?_gl=1*1vmu844*_ga*dW5kZWZpbmVk*_ga_15W4STQT4T*dW5kZWZpbmVk*_ga_1KQLCYKRX3*dW5kZWZpbmVk)
   * [buck-converter-8A](https://www.deliversafev.com/voltage-regulator-buck-converter-8a100w-dc4540v-step-down-volt-convert-module-p-127431.htm)
   * I could get x 2 of [6S-5v-3A-Converter](https://www.amazon.de/KINGDUO-Converter-Ausgang-15x8Mm-Racing/dp/B07GVCDJ72) since they are cheap and more consistent than a variable output knob.
-### EC5 Adapters
-* The battery has an EC5 female connector and the ESC has an XT60 male connector.
-* The [EC5-1female-2male-splitter](https://www.monsterhopups.de/GForce-GF-1320-161-Power-V-Kabel-Parallel-Ec-5-12Awg-Silikon-Kabel-12Cm-1-St?gclid=CjwKCAjw3dCnBhBCEiwAVvLcuxVI_eGr7R65-JryHHRgU1tE2wCVMDSWu2QeOGO1yAjZ_bOgYoCPUxoCe2cQAvD_BwE)  male plugs into the battery.
-* We need 1 [ec5-male-xt60-female-connector](https://www.conrad.at/de/p/reely-adapterkabel-1x-ec5-stecker-1x-xt60-buchse-10-00-cm-re-6903786-2301262.html?gclid=CjwKCAjw3dCnBhBCEiwAVvLcu7gOsc9H2f2ziTZgUW3g5ZNFy8GIwTqeJ3F62mghIVdgPsUuJR3eNhoCr5kQAvD_BwE&utm_source=google&utm_medium=organic&utm_campaign=shopping&ef_id=CjwKCAjw3dCnBhBCEiwAVvLcu7gOsc9H2f2ziTZgUW3g5ZNFy8GIwTqeJ3F62mghIVdgPsUuJR3eNhoCr5kQAvD_BwE:G:s)
-* We need 1 [ec5-male-flying leads](https://hobbyking.com/en_us/ec5-male-to-4mm-banana-plug-charge-lead.html?___store=en_us)
-* I can strip down and splice the wires
 
 ## My 6S1P 70c/140c 4000mAh 22.2V battery
 ### Charging
