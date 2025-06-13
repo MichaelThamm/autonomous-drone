@@ -6,6 +6,9 @@
 * [Oak-cad-models](https://github.com/luxonis/depthai-hardware/tree/master/DM9095_OAK-D-LITE_DepthAI_USB3C)
 * [7mm-dampers](https://grabcad.com/library/damper-anti-vibration-7mm-hole-1)
 
+## Linux
+- [cura-slicer](https://curaslicer.com/#download-cura-slicer)
+
 ## Fusion360
 * [stl-import-to-component](https://www.youtube.com/watch?v=CeMHqa9Pxn8)
 
