@@ -28,6 +28,10 @@ inav-configurator:
   inav-configurator
   # https://www.youtube.com/watch?v=xdf3yhlgJyc
 
+ardupilot:
+  inav-configurator
+  # https://firmware.ardupilot.org/Copter/stable-4.5.7/speedybeef4v3/arducopter_with_bl.hex
+  
+
 blheli-suite32:
   # https://github.com/bitdump/BLHeli/releases
-  # https://oscarliang.com/connect-flash-blheli-32-esc/

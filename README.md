@@ -5,18 +5,18 @@
 * Size (motor-to-motor): ~250 mm
 * [Specs-Calculator-Online](https://ecalc.ch/xcoptercalc.php)
 
-![3d-drone-render](https://github.com/MichaelThamm/autonomous-drone/blob/main/mechanical-design/3d-render.png)
+![3d-drone-render](mechanical-design/front-cad.png)
 |  |  |  |  |
 | ------------- | ------------- | ------------- |------------ | 
-| ![front](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Camera.png)  | ![top](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Top.png)  | ![side](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/Side.png) | ![esc](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/ESC.png) |
+| ![front](documentation/Camera.png)  | ![top](documentation/Top.png)  | ![side](documentation/Side.png) | ![esc](documentation/ESC.png) |
 
 |  |  |  |  |
 | ------------- | ------------- | ------------- |------------ | 
-| ![mono-1](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-mono-1.png)  | ![mono-2](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-mono-2.png)  | ![ir-1](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-ir-1.png) | ![ir-2](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/image-recognition-ir-2.png) |
+| ![mono-1](documentation/image-recognition-mono-1.png)  | ![mono-2](documentation/image-recognition-mono-2.png)  | ![ir-1](documentation/image-recognition-ir-1.png) | ![ir-2](documentation/image-recognition-ir-2.png) |
 
 |  |  | 
 | ------------- | ------------ | 
-| ![slam-1](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/depthai-slam-1.png)  | ![slam-2](https://github.com/MichaelThamm/autonomous-drone/blob/main/documentation/depthai-slam-2.png)  |
+| ![slam-1](documentation/depthai-slam-1.png)  | ![slam-2](documentation/depthai-slam-2.png)  |
 
 # Project overview
 1. 3D print the drone frame
