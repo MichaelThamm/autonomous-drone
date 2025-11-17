@@ -8,7 +8,7 @@
 ![3d-drone-render](mechanical-design/front-cad.png)
 |  |  |  |  |
 | ------------- | ------------- | ------------- |------------ | 
-| ![front](documentation/Camera.png)  | ![top](documentation/Top.png)  | ![side](documentation/Side.png) | ![esc](documentation/ESC.png) |
+| ![front](documentation/front.jpg)  | ![top](documentation/top.jpg)  | ![front-left](documentation/front-left.jpg) | ![bottom](documentation/bottom.jpg) |
 
 |  |  |  |  |
 | ------------- | ------------- | ------------- |------------ | 
